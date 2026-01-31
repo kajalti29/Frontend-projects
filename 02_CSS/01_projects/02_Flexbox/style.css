@@ -1,0 +1,42 @@
+.container{
+    background-color: aqua;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column-reverse; /*yaha value change kar sakte ho*/
+}
+#box1{
+    background-color: lightgreen;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box2{
+    background-color: lightcoral;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box3{
+    background-color: lightgoldenrodyellow;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box4{
+    background-color: lightpink;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

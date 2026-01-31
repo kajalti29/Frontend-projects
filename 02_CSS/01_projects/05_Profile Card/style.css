@@ -1,0 +1,80 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page center */
+body {
+    min-height: 100vh;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main card */
+.card {
+    background: #ffffff;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+.card h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* Profile section */
+.Profile-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.Profile-card h2 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.Profile-card h3 {
+    font-size: 14px;
+    color: #555;
+}
+
+.Profile-card p {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+/* Social icons */
+.social-link {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-link a {
+    text-decoration: none;
+}
+
+.social-link i {
+    font-size: 22px;
+    color: #333;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.social-link i:hover {
+    color: #0077b5; /* LinkedIn blue */
+    transform: scale(1.2);
+}

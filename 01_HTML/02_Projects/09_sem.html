@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Semantic Layout</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background: yellow;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Layout */
+.container {
+  display: flex;
+  min-height: 300px;
+}
+
+/* Nav */
+nav {
+  background: orange;
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+nav a {
+  margin: 10px 0;
+  text-decoration: none;
+  color: black;
+}
+
+/* Main */
+main {
+  background: lightgreen;
+  width: 75%;
+  padding: 20px;
+}
+
+/* Articles */
+article {
+  background: lightblue;
+  padding: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background: pink;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>HEADER</h1>
+  </header>
+
+  <div class="container">
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+      <article>ARTICLE 1</article>
+      <article>ARTICLE 2</article>
+      <article>ARTICLE 3</article>
+    </main>
+  </div>
+
+  <footer>
+    <h2>FOOTER</h2>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+            align-items: center;
+        }
+        .heading{
+            background-color: lightgray;
+        }
+        /* Even rows (2nd, 4th, 6th...) */
+        tr:nth-child(even) {
+        background-color: #f2f2f2;
+     }
+
+        /* Odd rows (1st, 3rd, 5th...) */
+         tr:nth-child(odd) {
+        background-color: #ffffff;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <table >
+        <tr class="heading">
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Investments</th>
+        </tr>
+        <tr>
+            <td>232</td>
+            <td>Albert Master</td>
+            <td>albert.master@gmail.com</td>
+            <td>Bond</td>
+        </tr>
+        <tr>
+            <td>210</td>
+            <td>Ally Master</td>
+            <td>ally.master@gmail.com</td>
+            <td>Bond</td>
+        </tr>
+        <tr>
+            <td>256</td>
+            <td>Alison smart</td>
+            <td>alison.smart@gmail.com</td>
+            <td>Bond</td>
+        </tr>
+        <tr>
+            <td>211</td>
+            <td>Albert Master</td>
+            <td>albert.master@gmail.com</td>
+            <td>Bond</td>
+        </tr>
+        <tr>
+            <td>235</td>
+            <td>Albert Master</td>
+            <td>albert.master@gmail.com</td>
+            <td>Bond</td>
+        </tr>
+    </table>
+</body>
+</html>

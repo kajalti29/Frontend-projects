@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(163, 147, 147), rgb(99, 99, 163), pink);
+    padding: 15px;
+}
+
+/* Card */
+.container{
+    width: 100%;
+    max-width: 350px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Profile */
+.main img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.main h1{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.main h2{
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.main p{
+    font-size: 13px;
+    margin: 10px 0;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Stats */
+.info{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+}
+
+.info h3{
+    font-size: 16px;
+    color: blueviolet;
+}
+
+
+.info span{
+    font-size: 12px;
+    color: gray;
+}
+
+/* Buttons */
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.buttons button{
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.follow{
+    background: blueviolet;
+    color: white;
+}
+
+.follow:hover{
+    background-color: rgb(15, 165, 28);
+}
+
+.message{
+    background: #e4e4e4;
+}
+.message:hover{
+    background-color: #c7c5c5;
+}
+
+/* 🔥 Responsive (Small devices) */
+@media (max-width: 480px){
+    .main img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .main h1{
+        font-size: 18px;
+    }
+
+    .buttons{
+        flex-direction: column;
+    }
+}

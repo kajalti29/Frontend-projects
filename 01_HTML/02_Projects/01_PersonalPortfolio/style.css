@@ -1,0 +1,161 @@
+/* “This portfolio uses semantic HTML, clean structure, and is styled using external CSS with responsive design.” */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #0f172a;
+    color:#e5e7eb;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #020617;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #3b82f6;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+nav ul li a{
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover{
+    color: #3b82f8;
+}
+
+.btn{
+    background-color: #38bdf8;
+    color:#020617;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #0ea5e9;
+}
+
+section{
+    padding: 80px 60px;
+}
+
+#home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:50px;
+}
+#home h2{
+    font-size: 36px;
+}
+
+#home h3{
+    font-size: 18px;
+    color: #38bdf8;
+}
+
+#home h4{
+    font-size: 18px;
+    margin: 10px 0;
+    color: #94a3b8; 
+}
+
+#home p{
+    max-width: 520px;
+    margin: 20px 0;
+}
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.social-links a {
+    color: #38bdf8;
+    font-size: 28px;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #0ea5e9;
+    transform: scale(1.2);
+}
+
+figure img {
+    width: 280px;
+    border-radius: 25%;
+    border: 4px solid #38bdf8;
+}
+
+#about,
+#projects,
+#contact{
+background-color: #020617;
+    margin-top: 30px;
+    border-radius: 12px;
+}
+
+#about h2,
+#projects h2,
+#contact h2{
+    color: #38bdf8;
+    margin-bottom: 15px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #020617;
+    margin-top: 40px;
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+/* responsive design */
+@media(max-width : 900px){
+    header{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #home {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #home p {
+        margin: 20px auto;
+    }
+
+    figure img {
+        width: 220px;
+    }
+}

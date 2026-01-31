@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+
+/* 🔹 Box Model Example */
+.box{
+    /* Content */
+    font-size: 32px;
+    text-align: center;
+    background-color: #fff7cc;
+
+    /* Padding */
+    padding: 20px 40px;
+
+    /* Border */
+    border: 3px solid gray;
+
+    /* Margin */
+    margin: 50px auto;
+
+    width: fit-content;
+}

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.grid{
+    display: grid;
+    height: 100%;
+    width: 100%;
+
+    /* grid-template-rows: 1fr 1fr; */
+    grid-template-rows: repeat(3, 1fr); /*2 rows*/
+
+    grid-template-columns: 1fr 1fr 1fr; /*3 columns*/
+    grid-template-columns: repeat(2, 1fr); /*3 columns*/
+
+    gap: 10px; /*gap between boxes*/
+    background-color: #f0f0f0;
+
+    row-gap: 10px; /*row ke beech gap*/
+    column-gap: 15px; /*column ke beech gap*/
+}  
+.item{
+    background-color: lightcoral;
+    border: 2px solid black;
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Overlay background */
+.overlay{
+    height: 100vh;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal box */
+.main{
+    width: 350px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Heading */
+.main h1{
+    font-size: 20px;
+    padding: 10px;
+    color: #000;
+}
+
+/* Paragraph */
+.main p{
+    line-height: 1.5;
+    padding: 10px;
+    color: #555;
+}
+
+/* Button */
+button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #6c63ff;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #5848e5;
+}

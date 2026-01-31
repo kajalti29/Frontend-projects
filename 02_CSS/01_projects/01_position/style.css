@@ -1,0 +1,58 @@
+body {
+  font-family: Arial;
+}
+
+/* common box style */
+.box {
+  width: 150px;
+  height: 60px;
+  margin: 20px;
+  padding: 10px;
+  color: white;
+}
+
+/* 1️⃣ static (default) */
+.static {
+  position: static;
+  background: gray;
+}
+
+/* 2️⃣ relative */
+.relative {
+  position: relative;
+  top: 20px;
+  left: 30px;
+  background: blue;
+}
+
+/* parent for absolute */
+.parent {
+  position: relative;
+  width: 300px;
+  height: 150px;
+  border: 2px solid black;
+  margin: 30px;
+}
+
+/* 3️⃣ absolute */
+.absolute {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  background: red;
+}
+
+/* 4️⃣ fixed */
+.fixed {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: green;
+}
+
+/* 5️⃣ sticky */
+.sticky {
+  position: sticky;
+  top: 0;
+  background: purple;
+}
