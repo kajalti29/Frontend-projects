@@ -10,7 +10,7 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #222;
+  background: #020617;
   padding: 12px 40px;
 }
 
@@ -68,6 +68,7 @@ nav{
 .left h2{
   font-size: 60px;
   font-weight: 800;
+  color: #020617;
 }
 
 .left span{
@@ -77,7 +78,7 @@ nav{
 /* ===== RIGHT CARD ===== */
 .right{
   width: 230px;
-  background: #1c0333;
+  background: #020617;
   padding: 20px;
   border-radius: 12px;
   color: white;
@@ -107,11 +108,12 @@ nav{
 /* CARD LINKS */
 .card-links{
   list-style: none;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .card-links li{
-  margin: 8px 0;
+  margin: 20px 0;
+  padding: 4px;
 }
 
 .card-links a{
@@ -123,3 +125,5 @@ nav{
 .card-links a:hover{
   color: lightseagreen;
 }
+
+

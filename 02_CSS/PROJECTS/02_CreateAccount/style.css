@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 600px;
+}
+
+form{
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+form h1{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* common field wrapper */
+.field{
+  margin-bottom: 15px;
+}
+
+label{
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #2aa198;
+}
+
+/* inputs */
+input,
+select,
+textarea{
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+  outline: none;
+  border-color: #2aa198;
+}
+
+/* radio & checkbox inline */
+.field input[type="radio"],
+.field input[type="checkbox"]{
+  width: auto;
+  margin-right: 5px;
+}
+
+/* income slider */
+.field span{
+  display: inline-block;
+  margin-left: 10px;
+  background: #20b486;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+/* button */
+button{
+  background: #2aa198;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+}
+
+button:hover{
+  background: #1f7f75;
+}

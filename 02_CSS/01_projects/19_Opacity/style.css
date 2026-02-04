@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+.box{
+    width: 200px;
+    height: 80px;
+    background-color: rgb(11, 11, 51);
+    color: white;
+    margin:10px ;
+}
+
+.opacity{
+  opacity: 0.4;
+}

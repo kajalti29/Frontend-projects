@@ -1,0 +1,8 @@
+.box{
+    border: 2px solid black;
+    height: 100px;
+    width: 150px;
+    background-color: darksalmon;
+    color: white;
+    overflow: scroll;
+}
