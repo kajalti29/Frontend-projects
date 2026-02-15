@@ -99,24 +99,12 @@ Buttons
 Forms
 
 <!-- ✅ Tags & Elements -->
-An HTML tag is a predefined keyword written inside angle brackets < > that is used to instruct the web browser how to display or structure content.
-
-<!-- Real-world example: -->
-Think of a cup design ☕
-It shows the shape only, not the tea.
-
-<p>
-</p>
-<p> is a tag.
-
-Element → Start tag + content + end tag
-
-<p>Hello</p>
--------------------------------------------------------
 <!-- Q3. What is the difference between Tag and Element? -->
+<!-- HTML -->
+HTML tags are keywords enclosed in angle brackets that tell the browser how to display content.
+Example: <p>, <h1>, <img>
 
-Tag is an instruction written inside < >
-
+<!-- ELement -->
 Element is a complete structure consisting of opening tag, content, and closing tag.
 
 👉 Real-world example:
@@ -507,7 +495,7 @@ method → GET / POST
 <!-- ✅ What is GET and POST -->
 GET and POST are HTTP methods used to send form data from client to server.
 
-* sGET method sends data through the URL and is less secure.
+* GET method sends data through the URL and is less secure.
  Example:-🔍 Google search
 
 <form action="search.html" method="get">
@@ -766,6 +754,7 @@ body{
 <!-- 🧠 Module 7: Semantic HTML (Interview Favourite) -->
 <!-- ✅ What are Semantic Tags? -->
 Semantic tags are HTML tags that clearly describe the meaning of the content inside them.
+Examples: <header>, <footer>, <article>, <section>
 
 Jaise ghar me:
 
@@ -790,12 +779,13 @@ QUE.
 Why semantic HTML is important?
 ANS:-
 Semantic HTML is important because:
-
 It clearly describes the meaning of content
 It improves code readability
 Better SEO
 It improves accessibility for screen readers
 
+<!-- 👉 Why important? -->
+SEO + readability + accessibility improve hoti hai.
 
 1️⃣ <header>
 👉 Page ka top part (logo, title)
@@ -982,4 +972,6 @@ List → items ka group
 Website sab log use kar saken —
 including blind & disabled users
 
----------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+-1️⃣8️⃣ How to make website responsive in HTML?
+<meta name="viewport" content="width=device-width, initial-scale=1.0">

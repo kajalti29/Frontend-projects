@@ -280,6 +280,7 @@ height: 100px; -->
 
 2️⃣ Padding:-
 👉 Space between content and border.
+padding is inside space
 
 <!-- padding: 20px; -->
 
@@ -415,6 +416,9 @@ position: sticky; -->
 
 ----------------------------------------------------------------------------------
 <!-- 1️⃣ position: static (Default) -->
+Position controls element placement.
+
+
 Har element by default static hota hai
 top, right, bottom, left ka koi effect nahi
 
@@ -521,6 +525,7 @@ gap -->
 
 <!-- ⃣4️⃣ Overflow -->
 <!-- : What is overflow in CSS? -->
+Overflow controls extra content.
 Overflow controls extra content that doesn’t fit inside an element.
 
 <!-- Real-World Example -->
@@ -552,6 +557,7 @@ Visibility controls whether an element is shown or hidden.
 
 ------------------------------------------------------------
 <!-- 1️⃣5️⃣ Opacity-->
+Opacity controls transparency.
 Opacity controls how transparent an element is.
 👉 Value: 0 (invisible) to 1 (fully visible)
 
@@ -762,3 +768,49 @@ align-content	Multiple rows (wrap) ke beech space
 
 ---------------------------------------------------------------------------------------------------
 
+==============================================================================================================================
+
+<!-- 1️⃣6️⃣ What is !important? -->
+Overrides all CSS rules.
+
+<!-- color: red !important; -->
+
+<!-- 2️⃣0️⃣ What is float? -->
+Float positions elements left or right.
+img {
+  float: left;
+}
+<!-- 1️⃣ How do you center a div? (MOST COMMON) -->
+Main usually Flexbox use karta hoon.
+<!-- 
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} -->
+Flexbox is responsive and works for both horizontal & vertical centering.
+
+<!-- 2️⃣ Page responsive kaise banate ho? -->
+Mobile-first CSS
+Flexbox / Grid
+Media queries
+<!-- 
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+} -->
+Different screen sizes ke liye layout adjust ho jata hai.
+
+<!-- 3️⃣ Why avoid !important in projects? -->
+Because it breaks CSS hierarchy and makes debugging difficult.
+
+<!-- 4️⃣ Flexbox kab use karte ho aur Grid kab? -->
+Flexbox → navbar, buttons, cards
+Grid → full page layout
+<!-- 
+display: flex;  /* one direction */
+display: grid;  /* rows + columns */
+ -->
+Why:
+Flex is 1D, Grid is 2D layout system.
