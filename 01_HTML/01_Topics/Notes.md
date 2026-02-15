@@ -1,7 +1,8 @@
 <!-- ✅ What is HTML? -->
-HTML (HyperText Markup Language) is the standard markup language is used to create the structure of web pages using elements and tags.
+HTML stands for HyperText Markup Language.
+It is used to create the structure of a web page. HTML defines elements like headings, paragraphs, images, links, forms, etc.
 
-Example:- “Just like the structure of a house (walls, rooms, roof), HTML provides the structure of a webpage.”
+For example Just like the structure of a house (walls, rooms, roof), HTML provides the structure of a webpage.”
 
 Hindi:-Jaise ghar ka structure (deewar, kamra, chhat) — waise hi HTML webpage ka structure deta hai.
 
@@ -884,7 +885,7 @@ Using:
 * alt attributes
 
 Q1. What is SEO?
-Ans: SEO stands for Search Engine Optimization. It is used to improve a website’s ranking on search engines.
+Ans:SEO stands for Search Engine Optimization. It is used to improve a website’s ranking on search engines.
 
 <!-- SEO ka full form kya hai? -->
 Ans: Search Engine Optimization
