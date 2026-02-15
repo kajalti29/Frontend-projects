@@ -134,4 +134,15 @@ Video Example:
     <source src="video.mp4" type="video/mp4">
 </video>
 
+<!-- 🔥 8️⃣ What is Local Storage? -->
+It stores data in browser permanently (until manually cleared).
+
+<script>
+localStorage.setItem("name", "Kajalti");
+console.log(localStorage.getItem("name"));
+</script>
+
+👉 Real-world example:
+Shopping cart data store karna without backend.
+
 <!-- 🔥 CSS Interview Questions -->
