@@ -35,6 +35,13 @@ Common Semantic Tags:
 Like naming rooms in a house: Kitchen, Bedroom
 Not Room1, Room2
 
+<!-- 9Why should we use semantic HTML? -->
+✅ Answer:
+Better SEO
+Better Accessibility
+Clean structure
+Easy maintenance
+
 <!-- 4️⃣ Difference Between id and class? -->
 The id is used to uniquely identify one element on a webpage, while class is used to apply the same style or behavior to multiple elements.
 In real life, id is like a roll number and class is like a section name.
@@ -144,5 +151,28 @@ console.log(localStorage.getItem("name"));
 
 👉 Real-world example:
 Shopping cart data store karna without backend.
+
+<!-- 🔥 9️⃣ What is iframe? -->
+The <iframe> tag is used to display another webpage inside the current your webpage.
+
+<iframe src="https://www.google.com" width="400" height="300"></iframe>
+👉 Real-world example:
+Embedding YouTube
+
+<!-- 🔥 11️⃣ What is Meta Tag? -->
+A meta tag provides information about a webpage.
+
+<!-- ❓ How would you create a simple product card? -->
+<div class="card">
+    <img src="product.jpg" width="200">
+    <h3>Product Name</h3>
+    <p>Price: ₹999</p>
+    <button>Add to Cart</button>
+</div>
+
+👉 Real-world:
+Amazon product box structure.
+
+
 
 <!-- 🔥 CSS Interview Questions -->
