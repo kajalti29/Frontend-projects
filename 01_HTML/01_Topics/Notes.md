@@ -343,11 +343,10 @@ src → Like a photo frame 🖼 that shows the actual image (loads content direc
 
 <!-- Module 4: Lists -->
 <!-- ✅ What are Lists in HTML? -->
-HTML lists are used to display a group of related items in an ordered or unordered way.
+An HTML List is used to display items in an ordered or unordered format.
 
 ✅ Ordered List <ol> :-
-An ordered list is used when the sequence or order matters.
-<!-- 
+Items are displayed with numbers.<!-- 
 <ol>
     <li>Boil water</li>
     <li>Add tea leaves</li>
@@ -365,7 +364,7 @@ Real-World Example
 -------------------------------------------------------------------------------------------
 
 ✅ Unordered List <ul>:-
- An unordered list is used when order does not matter.
+Items are displayed with bullet points.
 <!-- 
 <ul>
   <li>Milk</li>
