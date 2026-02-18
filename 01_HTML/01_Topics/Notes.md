@@ -12,9 +12,6 @@ Hindi:-Jaise ghar ka structure (deewar, kamra, chhat) — waise hi HTML webpage 
 HTML is called a Markup Language because it uses tags to define and structure content on a web page.
 <h1> marks text as a heading.
 
-<!-- ✅ HTML vs CSS vs JavaScript -->
-HTML defines structure of the web page, CSS styles the page, and JavaScript adds behavior.
-
 <!-- ❓ Q2. What is the difference between HTML and CSS? -->
 HTML is used to create the structure of a webpage,
 while CSS is used to style and design the webpage.

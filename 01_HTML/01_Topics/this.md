@@ -54,6 +54,9 @@ HTML (HyperText Markup Language) is the standard markup language used to create 
 
 HTML5 is the latest version of HTML that supports modern HTML rules and new features like semantic tags, audio, video, canvas and improved performance etc.
 
+<!-- Real-World Example -->
+Old phone vs smartphone 📱 — HTML5 has more features
+
 <!-- 🔥 7️⃣ What are HTML5 new features? -->
 ✅ Important Features:
 Semantic tags
@@ -68,6 +71,9 @@ Video Example:
 
 <!-- 👉 “Why is HTML5 better?” -->
 HTML5 is better because it supports multimedia, semantic tags, improved forms, local storage, and better performance without external plugins.
+
+<!--Difference Between HTML4 and HTML5 -->
+“HTML5 is an advanced version of HTML4. It introduced semantic tags like header and section, built-in audio and video support, new input types, and APIs like local storage. HTML4 didn’t support these features.”
 --------------------------------------------------------------------------------------------------------
 <!-- 4️⃣ Difference Between id and class? -->
 The id is used to uniquely identify one element on a webpage, while class is used to apply the same style or behavior to multiple elements.
@@ -107,12 +113,17 @@ The Anchor tag is Used to create hyperlinks.
 <a href="https://google.com">Go to Google</a>
 
 <!-- What is the use of the alt attribute? -->
-The alt attribute provides alternative text for an image if it cannot be displayed.
+The alt attribute provides alternative text if image fails to load .
 <img src="image.jpg" alt="Girl coding on laptop">
 
 
 <!-- 🔥 11️⃣ What is Meta Tag? -->
 A meta tag provides information about the webpage.
+<!-- 🌍 Real-world: -->
+Used for:
+Character encoding
+SEO
+Responsive design
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -128,6 +139,8 @@ The viewport meta tag controls the layout on mobile devices.
 <!-- Form Attributes -->
 
 <!-- What is required attribute? -->
+User must fill before submitting form.
+
 The required attribute is used in HTML forms to make a field mandatory. The form cannot be submitted unless the user fills that field.
 <input type="text" required>
 
@@ -191,7 +204,7 @@ A description list is used to show terms and their descriptions.
 <!-- 🔥 5️⃣ What is Form? -->
 An HTML Form is used to collect user input and send that data to a server for processing.
 Real Example
-Login page, Registration page.
+Login page, Registration page. Contact form..
 
 <form action="submit.php" method="post">
   <input type="text" placeholder="Enter your name">
@@ -304,15 +317,18 @@ Easy maintenance
 <!-- What is the difference between section and article? -->
 <section> is used to group related content.
 <article> is used for independent, content like blog posts.
+
+<!--What is the Difference Between <section> and <div>? -->
+“The main difference is that <section> is a semantic element used to define a meaningful section of content, while <div> is a non-semantic container used only for grouping or styling purposes.”
 -----------------------------------------------------------------------------
 <!-- 2️⃣ What is the difference between Block and Inline elements? -->
 Block elements:-block elements takes full width and starts on new line.
 Examples:
 Block → <div>, <p>, <h1>
 
-Inline element:- inline element takes required width and does not start new line.
+Inline element:- inline element takes ony required width and does not start new line.
 Examples:
-Inline → <span>, <a>, <strong>, <img>
+Inline → <span>, <a>, <strong>, 
 
 <div>This is block</div>
 <span>This is inline</span>
@@ -345,7 +361,10 @@ The <iframe> tag is used to display another webpage inside the current your webp
 
 <iframe src="https://www.google.com" width="400" height="300"></iframe>
 👉 Real-world example:
-Embedding YouTube
+Used to embed:
+Maps
+YouTube videos
+Payment gateway
 
 <!-- What is the use of label tag? -->
 The <label> tag is used to define a label for form elements.
