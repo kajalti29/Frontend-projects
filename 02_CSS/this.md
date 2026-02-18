@@ -2,9 +2,14 @@
 <!-- 1️⃣ What is CSS? -->
 CSS(Cascading Style Sheets) is used to control layout and design of web pages.
 It allows developers to style HTML elements by changing colors, fonts, spacing, alignment, and making websites responsive for different screen sizes.
+<!-- 
+h1 {
+  color: blue;
+  text-align: center;
+} -->
 
 Real-world Example:
-HTML is like a house structure, CSS is like paint, furniture, lightingss and decoration.
+HTML is the structure of a house, CSS is the paint, furniture, lightingss and decoration.
 
 <!-- ❓ Why is it called “Cascading” Style Sheets? -->
 👉 Because styles can come from multiple sources (inline, internal, external), and they follow a priority order (cascade).
@@ -309,6 +314,12 @@ font-family: Arial, sans-serif;
 <!-- 9️⃣ Box Model ⭐ (Very Important) -->
 The CSS Box Model defines how padding, border, and margin are added around an element’s content.
 
+Like a gift box 🎁
+Content = gift
+Padding = bubble wrap
+Border = box
+Margin = space outside box
+
 It has 4 main parts:-
 * Content 
 * Padding
@@ -611,9 +622,7 @@ Defines which element appears on top.
 } -->
 ------------------------------------------------------------------------------------------------
 <!-- 1️⃣2️⃣ Flexbox ⭐⭐ -->
-Flexbox is a one-dimensional layouts system in CSS used to align items easily in a responsive way.
-It aligns items horizontally or vertically within a container.
-
+Flexbox is a one-dimensional layout system used to align items horizontally or vertically.
 <!-- Real-world: -->
 Items arranged in a single line like seats in a bus.
 
