@@ -2,14 +2,15 @@
 <!-- 1️⃣ What is CSS? -->
 CSS(Cascading Style Sheets) is used to control layout and design of web pages.
 It allows developers to style HTML elements by changing colors, fonts, spacing, alignment, and making websites responsive for different screen sizes.
+
+<!-- Real-world Example: -->
+HTML is the structure of a house, CSS is the paint, furniture, lightingss and decoration.
+
 <!-- 
 h1 {
   color: blue;
   text-align: center;
 } -->
-
-Real-world Example:
-HTML is the structure of a house, CSS is the paint, furniture, lightingss and decoration.
 
 <!-- ❓ Why is it called “Cascading” Style Sheets? -->
 👉 Because styles can come from multiple sources (inline, internal, external), and they follow a priority order (cascade).
@@ -94,16 +95,19 @@ p {
 } -->
 
 3️⃣ ID Selector (#):-
-ID: Used to select uniquely identify a single HTML element.
-🧠 Real life: “School ka principal”
+ID selector (#) is used to style one unique element.It is denoted by #.
+🧠 Real life:Every person has a unique Aadhaar number.
 <!-- 
 #title {
   font-size: 30px;
 } -->
 
 4️⃣ Class Selector (.):-
-Class: Used to apply the same style to multiple HTML elements.
-🧠 Real life: “Class 10 ke students”
+Class: a class selector (.) is used to style multiple elements that share the same class name. It is denoted by (.).
+🧠 Real life:-
+Think of students in a classroom 🎓
+Many students belong to "Class 10A".
+One class name, multiple students
 <!-- 
 .box {
   background: yellow;
@@ -143,9 +147,9 @@ input[type="text"] {
 
 --------------------------------------------------------------------------------------------
 9️⃣ Pseudo-class Selector (:):-
-A pseudo-class selector to define a special state of an HTML element-like when a user hover a link, selects a chechbox, or target the first child of an elements.
+A pseudo-class selector is used to define a special state of an element, such as hover, focus, active. 
 
-It starts with a colon : followed by the state name.
+It starts with a colon (:).
 
 <!-- Real-World Example -->
 Like a traffic light 🚦 changing color based on state:
@@ -160,10 +164,34 @@ a:hover {
 } -->
 
 ✔ Used for state
-:hover
-:focus
-:actives
-:first-child
+<!-- :hover -->
+Applies style when mouse is over the element.
+<!-- 
+button:hover {
+  background-color: blue;
+  color: white;
+} -->
+
+<!-- :focus -->
+Applies when input field is focused.
+<!-- 
+input:focus {
+  border: 2px solid green;
+} -->
+
+<!-- :actives -->
+Applies when element is being clicked.
+<!-- 
+a:active {
+  color: red;
+} -->
+
+<!-- :first-child -->
+Targets the first child element.
+<!-- 
+li:first-child {
+  color: purple;
+} -->
 
 <!-- Common Pseudo-classes -->
 :hover → mouse le jaane par
@@ -191,11 +219,11 @@ p::first-letter {
 CSS colors are used to define the color of text, background, borders, and other elements in a webpage.
 
 CSS provides multiple colors like:
-Color Name
-HEX
-RGB
-RGBA
-HSL
+Color name (red, blue)
+HEX (#ff0000)
+RGB (rgb(255,0,0))
+RGBA (rgba(255,0,0,0.5))
+HSL (hsl(0,100%,50%))
 
 <!-- ✅ 1️⃣ Color Name:- -->
 Color names are predefined keyword values in CSS used to set colors directly by writing their names.
@@ -233,7 +261,7 @@ background-color: rgba(255, 0, 0, 0.5);
 
 ------------------------------------------------------------------------------------------------
 <!-- ✅ What is CSS Gradient? -->
-A CSS gradient is used to create a smooth transition between two or more specified colors.
+A CSS gradient is used to create a smooth transition between two or more specified colors using the background-image property
 
 <!-- ✅ Types of CSS Gradients -->
 1️⃣ Linear Gradient:-
@@ -255,7 +283,7 @@ Buttons, hero sections, banners
 2️⃣ Radial Gradient:-
 Colors circular ya elliptical shape me spread hote hain.
 
-background: radial-gradient(circle, red, yellow, green);
+<!-- background: radial-gradient(circle, red, yellow, green); -->
 
 🔹 Real Use Case
 Highlight effect, spotlight UI
@@ -263,7 +291,7 @@ Highlight effect, spotlight UI
 3️⃣ Conic Gradient (Advanced):-
 Colors circular rotation me center se rotate hote hain.
 
-background: conic-gradient(red, yellow, green);
+<!-- background: conic-gradient(red, yellow, green); -->
 
 Real Use Case
 Pie charts, loaders, circular designs
@@ -285,6 +313,52 @@ Loader spinner
 Typing effect
 Moving slider
 Bounce effect
+
+3️⃣ What is the difference between transition and animation?
+| Transition                  | Animation                 |
+| --------------------------- | ------------------------- |
+| Works between 2 states      | Works with multiple steps |
+| Needs trigger (hover/click) | Can run automatically     |
+| No keyframes needed         | Uses `@keyframes`         |
+
+<!-- Which properties can be animated in CSS? -->
+color
+background-color
+transform
+opacity
+width/height
+etc.
+
+<!-- 5️⃣ What is @keyframes? -->
+It defines the stages of an animation.
+
+<!-- 6️⃣ What does animation: slide 2s infinite ease; mean? -->
+slide → animation name
+2s → duration
+infinite → repeat forever
+ease → speed curve
+
+<!-- 7️⃣ What is the use of transition-timing-function? -->
+It controls animation speed pattern (ease, linear, ease-in, ease-out).
+
+<!-- 8️⃣ Can we use transition and animation together? -->
+Yes. Animation runs automatically, and transition works when property changes (like hover).
+
+<!-- 🔟 What is the difference between ease and linear? -->
+linear → constant speed
+ease → slow start, fast middle, slow end
+
+<!-- 1️⃣1️⃣ What is animation-fill-mode? -->
+Controls how element looks before/after animation.
+Options:
+forwards
+backwards
+both
+
+<!-- 1️⃣2️⃣ What is animation-delay? -->
+It delays the start of animation.
+<!-- animation-delay: 2s; -->
+
 ----------------------------------------------------------------------------------
 <!-- 7️⃣ Background Properties -->
 background-color
@@ -362,7 +436,7 @@ Space between boxes = Margin
 Box model samajh aa gaya → CSS clear 😎
 -----------------------------------------------------------------------------------
 <!-- 🟢 9️⃣ CSS Units -->
-CSS Units are used to define the size and measurement of elements in CSS, such as font size, width, height, margin, and padding.
+CSS Units are used to define the size and measurement of elements in CSS, such as  width, height, margin, and padding.
 
 ✅ 1️⃣ Absolute Units:-
 Absolute units are fixed units that do not change based on screen size or parent element.
@@ -682,8 +756,8 @@ gap -->
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-------------------------------------------------------------------------------------------------1️⃣2️⃣ Responsive Design ⭐⭐⭐
-
+------------------------------------------------------------------------------------------------
+1️⃣2️⃣ Responsive Design ⭐⭐⭐
 <!-- Q: What is responsive design? -->
 Responsive design means a website automatically adjusts to different screen sizes
 (mobile 📱, tablet 📱, laptop 💻).
@@ -713,3 +787,81 @@ A: It decides which CSS rule is applied when multiple rules target the same elem
 ----------------------------------------------------------------------------------------------------
 <!-- 🔹 CSS 2D Transform (Simple Definition) -->
 <!-- 🟢 1️⃣ CSS 2D Transform -->
+CSS 2D Transform is used to manipulate an element in two-dimensional space, including moving, rotating, scaling, and skewing it along the X and Y axes.
+
+<!-- 2️⃣ Key Properties to Know -->
+1️⃣ translate():- Moves an element in X and Y direction.
+
+Syntax: transform: translate(x, y);
+Units: px, %, em
+Real use: Slide a button or card on hover.
+
+<!-- Example:
+div {
+  transform: translate(50px, 20px);
+} -->
+Moves element 50px right, 20px down
+
+2️⃣ translateX() & translateY():-
+Moves element along a single axis.
+<!-- 
+transform: translateX(100px); /* move right */
+transform: translateY(50px);  /* move down */ -->
+
+3️⃣ rotate() :-
+Rotates an element clockwise or anticlockwise.
+
+Units: deg, turn
+Positive → clockwise, Negative → anticlockwise
+
+<!-- transform: rotate(45deg); -->
+Rotates element 45° clockwise
+
+4️⃣ scale():-
+Resizes element proportionally.
+
+Syntax: scale(sx, sy)
+Units: unitless (numbers)
+
+scaleX() / scaleY() → resize along single axis
+
+transform: scale(1.5);    /* 150% size */
+transform: scaleX(2);     /* double width */
+transform: scaleY(0.5);   /* half height */
+
+5️⃣ skew():-
+Tilts an element along X and Y axes.
+
+Units: deg
+Gives a slanted / tilted effect
+
+<!-- transform: skew(20deg, 10deg); -->
+X-axis tilt = 20°
+Y-axis tilt = 10°
+
+6️⃣ matrix():-
+Combines translate, rotate, scale, and skew in one.
+
+Syntax: matrix(a, b, c, d, e, f)
+
+Usually advanced / less common in interviews
+
+transform: matrix(1, 0.2, 0, 1, 30, 50);
+
+Moves, rotates, scales, and skews element in one line
+=======================================================================================
+<!-- What is CSS 3D Transform? -->
+CSS 3D Transform is used to move, rotate, and scale elements in 3D space along the X, Y, and Z axes, creating depth and perspective effects.
+
+2D = X & Y axes
+3D = X, Y & Z axes (Z-axis adds depth)
+
+<!-- 1️⃣ translate3d(x, y, z) -->
+Moves an element in 3D space.
+
+<!-- transform: translate3d(50px, 20px, 100px); -->
+X = 50px (right)
+Y = 20px (down)
+Z = 100px (toward viewer)
+
+----------------------------------------------------------------------------
