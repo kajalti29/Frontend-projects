@@ -3,7 +3,7 @@ HTML(HyperText Markup Language) is the standard markup language.
 It is used to create the structure of a web page.
 HTML defines elements like headings, paragraphs, images, links, forms, etc.
 
-For example Just like the structure of a house includs walls, rooms, and roof ,HTML defines headings, paragraphs, images, links, and sections of a website.
+For example like the structure of a house includs walls, rooms, and roof ,HTML defines headings, paragraphs, images, links, and sections of a website.
 It does not provide styling or functionality — it only provides structure.
 
 <!--Why HTML is called a Markup Language? -->
@@ -15,8 +15,8 @@ HTML is used to create the structure of a webpage,
 while CSS is used to style and design the webpage.
 
 Example:
-HTML = body
-CSS = clothes
+HTML is the structure of a house, CSS is the paint, furniture, lightingss and decoration.
+
 
 <!-- 🔥 2️⃣ What is the basic structure of an HTML page? -->
 <!DOCTYPE html>
@@ -78,11 +78,8 @@ Buttons
 Forms
 ----------------------------------------------------------------------------------------------------------
 <!-- 🔥 2️⃣ What is HTML5? -->
-HTML5 is the latest version of HTML that supports modern HTML rules and new features like semantic tags, audio, video, canvas and improved performance etc.
+HTML5 is the latest version of HTML that supports modern HTML rules and new features like semantic tags, audio, video and improved performance etc.
 🌍 Real Example
-Earlier websites needed Flash for video.
-Now we use HTML5 <video> tag directly.
-
 Old phone vs smartphone 📱 — HTML5 has more features
 
 <video controls>
@@ -99,7 +96,7 @@ controls attribute automatically play/pause button add karta hai.
 <!--What is the difference between HTML and HTML5? -->
 HTML (HyperText Markup Language) is the standard markup language used to create and structure web pages using elements and tags.
 
-HTML5 is the latest version of HTML that supports modern HTML rules and new features like semantic tags, audio, video, canvas and improved performance etc.
+HTML5 is the latest version of HTML that supports modern HTML rules and new features like semantic tags, audio, video and improved performance etc.
 
 <!-- Real-World Example -->
 Old phone vs smartphone 📱 — HTML5 has more features
@@ -154,22 +151,26 @@ This is line two
 ✅ Horizontal Line: <hr>
 The <hr> tag is used to create a horizontal line to separate content.
 
-✅ Bold: <b> / <strong>
-<b> -> Bold text
-Makes text bold (no extra importance).
-<!-- <b>Bold text</b> -->
+<!-- What is the difference between strong and b? -->
+<strong> is a semantic tag that indicates important content and adds meaning, while <b> is a non-semantic tag used only to make text bold without adding importance.
 
-<strong> 
-Makes text bold with importance.
-<!-- <strong>Strong important text</strong><br>-->
+<p>This is <strong>very important</strong> information.</p>
 
-✅ Italic: <i> <i> 
-Makes text italic (style only).
-<!-- <i>Italic text</i><br> -->
+<p>This is <b>bold text</b>.</p>
 
-<em>
-Makes text italic with emphasis.
-<!-- <em>Emphasized text</em><br><br> -->
+<!-- ✅ Difference Between <em> and <i> -->
+<em> is a semantic tag used to emphasize text and add meaning, while <i> is a non-semantic tag used only to display text in italic style.
+
+<p>I <em>really</em> like coding.</p>
+<p>This is <i>italic</i> text.</p>
+
+<!-- ✅ Difference Between <strong> and <em> -->
+<strong> is a semantic tag that indicates important content and adds meaning, <em> is a semantic tag used to emphasize text and add meaning.
+<strong> → Bold
+<em> → Italic
+<p><strong>This is strong text</strong></p>
+<p><em>This is emphasized text</em></p>
+
 
 <small> 
 Makes text smaller than normal text.
@@ -208,7 +209,12 @@ Riya    21     Mumbai
 ------------------------------------------------------------------------------------------------------------
 <!-- 🟢 3️⃣ Links-->
  An HTML link is used to connects one web page to another and allows navigation on the web.
- for example, Like a road sign that takes you to another place.
+ <!-- for example,  -->
+You are in one room.
+You open a door → you enter another room.
+👉 The door is like a link.
+👉 The other room is the destination page.
+
 <a href="https://www.google.com">Go to Google</a>
 
 4️⃣ Code Explanation
@@ -299,6 +305,12 @@ The alt attribute provides alternative text if image fails to load .
 
 <img src="image.jpg" alt="Girl coding on laptop">
 Example:-
+Think about a newspaper 📰
+
+If the photo is missing,
+👉 the caption written below tells you what the photo was about.
+
+
 Socho newspaper ki photo missing ho jaye
 👉 neeche likha caption batata hai photo kis baare me hai
 📌 HTML me alt wahi caption hai
@@ -345,6 +357,9 @@ HTML tags are not case-sensitive, but lowercase is best practice.
 <!-- Form Attributes -->
 
 <!-- What is required attribute? -->
+user must fill out the field before submitting the form.
+
+
 The required attribute is a boolean attribute used in HTML form controls (such as <input>, <textarea>, and <select>) to specify that the user must fill out the field before submitting the form.
 <input type="text" required>
 <!-- 
@@ -717,6 +732,8 @@ YouTube videos
 Payment gateway
 
 <!-- What is the use of label tag? -->
+A label provides a name or description for an input field so users know what to type.
+-
 The <label> tag is used to describe an input field in a form.
 It improves accessibility and user experience.
 <label for="email">Email :</label>
