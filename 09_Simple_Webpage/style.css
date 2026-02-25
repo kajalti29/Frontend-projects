@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header{
+    background-color: lightblue;
+    color: white;
+    padding: 20px;
+}
+
+/* Navbar styling */
+nav {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+/* UL ko flex bana do */
+nav ul {
+    display: flex;
+    justify-content: flex-end;  /* 👈 Ye links ko right side bhej dega */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* List items spacing */
+nav ul li {
+    margin-left: 20px;
+}
+
+/* Links styling */
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
