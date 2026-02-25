@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #333;
+    color: white;
+
+    position: sticky;   /* Sticky */
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo */
+.logo{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Desktop Menu */
+.nav-links{
+    list-style: none;
+    display: flex;      /* Horizontal */
+    gap: 25px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Hamburger */
+.hamburger{
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* 📱 Mobile View */
+@media (max-width: 768px){
+
+    .nav-links{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: #333;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .nav-links.active{
+        display: flex;
+    }
+
+    .hamburger{
+        display: block;   /* Show hamburger */
+    }
+}
