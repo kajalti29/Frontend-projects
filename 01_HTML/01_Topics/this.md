@@ -598,10 +598,10 @@ Semantic tags are HTML tags that clearly describe the meaning of the content ins
 Examples:
 Common Semantic Tags:
 <header>
-<footer>
+<nav>
 <section>
 <article>
-<nav>
+<footer>
 
 | Tag         | Purpose             |
 | ----------- | ------------------- |
@@ -621,11 +621,12 @@ Like naming rooms in a house: Kitchen, Bedroom
 Not Room1, Room2
 
 <!-- 🌍 Real Example -->
-In news website:
-Header → logo
-Nav → menu
-Article → news
-Footer → copyright
+Think about a newspaper 📰:
+Top part = Header
+Menu section = Navigation
+News blocks = Articles
+Bottom copyright section = Footer
+A website follows the same basic structure.
 
 💻 Code
 <header>Logo</header>
@@ -636,13 +637,11 @@ Footer → copyright
 <!-- Why should we use semantic HTML? -->
 ✅ Answer:
 It clearly describes the meaning of content
-Better Accessibility
-Better SEO
-Clean structure
+Improve SEO
+Improves accessibility
+Makes code more readable
+Better structure for browsers and screen readers.
 Easy maintenance
-Makes code readable
-Helps screen readers
-
 
 <!-- What is the difference between section and article? -->
 <section> is used to group related content.

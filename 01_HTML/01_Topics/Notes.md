@@ -16,8 +16,8 @@ Bottom copyright section = Footer
 A website follows the same basic structure.
 
 <!-- Why is it Important?” -->
-Tum bolo:
-Improves SEO
+It clearly describes the meaning of content
+Improve SEO
 Improves accessibility
 Makes code more readable
 Better structure for browsers and screen readers.
@@ -53,3 +53,28 @@ Easy maintenance
 
 
 <!-- 🔥 2. Difference Between ID and Class? -->
+
+
+<!-- 2️⃣ Difference between <div> and <span>? -->
+1️⃣ <div>
+Block-level element
+Takes full width of the page
+Starts on a new line
+Used for layout and grouping large sections
+
+2️⃣ <span>
+Inline element
+Takes only the required width
+Does NOT start on a new line
+Used for styling small parts of text
+
+div Tag :- 
+The div tag is a block-level container used to group elements.
+<div>
+  <h1>Hello</h1>
+  <p>This is a paragraph</p>
+</div>
+
+span Tag :- 
+The span tag is an inline element used to style small parts of text.
+<p>This is <span style="color:red;">important</span> text.</p>
