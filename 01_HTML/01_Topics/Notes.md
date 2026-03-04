@@ -6,8 +6,13 @@ HTML provides only structure — not styling or functionality.
 Just like a house has walls, rooms, doors, and a roof to create its structure,
 HTML creates the basic structure of a website using elements like headings, sections, and images.
 
+<!--What is the difference between HTML and HTML5? -->
+HTML (HyperText Markup Language) is the standard markup language used to create the structure web pages using elements and tags.
+
+HTML5 is the latest version of HTML that supports modern HTML rules and new features like semantic tags, audio, video and improved performance etc.
+
 <!-- 1. What is Semantic HTML? Why is it important? -->
-Semantic tags are HTML tags that clearly describe the meaning of the content inside them.
+Semantic tags are HTML tags that clearly describe the meaning of the content inside them. They improve SEO and accessibility.
 Example:
 <header>
 <nav>
@@ -110,7 +115,7 @@ Many students can belong to the same section (A, B, C) → That is like a class.
 <p class="text">Para2</p>
 
 <!-- 🔥 4. What is the purpose of alt attribute? -->
-The alt attribute provides alternative text for an image if it cannot load.
+The alt attribute provides alternative text for an image if it cannot load.It improves accessibility and SEO.
 
 <!-- 🌍 Real-life Example -->
 Like newspaper photo caption if image is missing.
@@ -187,6 +192,16 @@ Login page, Registration page. Contact form.
   <input type="password" name="password">
   <button type="submit">Login</button>
 </form>
+
+<!-- 1️⃣7️⃣ What is the use of label tag? -->
+Connects text with input field (improves accessibility).
+
+<label for="email">Email</label>
+<input type="email" id="email">
+
+<!-- What is difference between placeholder and value? -->
+placeholder → Hint text
+value → Default value
 
 <!-- 🔥 6️⃣ What is the difference between GET and POST in forms? -->
 ✅ 1️⃣ GET Method:-
@@ -304,7 +319,6 @@ Like writing extra information on a product tag that customers don’t see, but 
 </div>
 👉 JavaScript can access data-id.
 
-
 <!-- What is ARIA? -->
 ARIA (Accessible Rich Internet Applications) is used to improve accessibility for screen readers.
 <!-- 🌍 Real-life Example -->
@@ -328,6 +342,10 @@ i = Just italic handwriting
 
 <p>I <em>really</em> like coding.</p>
 <p>This is <i>italic</i> text.</p>
+
+<!-- 1️⃣8️⃣ What is form validation? -->
+Checking user input before submitting form.
+<input type="email" required>
 
 <!-- What is canvas? -->
 Canvas is an HTML5 element used to draw graphics using JavaScript.
