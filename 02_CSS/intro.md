@@ -17,7 +17,6 @@ Defines minimum and maximum width limits.
 <!-- 36. What are vh and vw? -->
 Viewport height & width units.
 
-
 =========================================================
 <!-- 1️⃣ What is CSS? -->
 CSS(Cascading Style Sheets) is used to control layout and design of web pages.

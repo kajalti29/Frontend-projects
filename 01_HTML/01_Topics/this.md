@@ -1,14 +1,14 @@
 <!-- 1️⃣ What is HTML? -->
-HTML(HyperText Markup Language) is the standard markup language.
-It is used to create the structure of a web page.
-HTML defines elements like headings, paragraphs, images, links, forms, etc.
+HTML (HyperText Markup Language) is the standard markup language used to create the structure of web pages.
+It defines elements like headings, paragraphs, images, links, forms, and sections.
+HTML provides only structure — not styling or functionality.
 
-For example like the structure of a house includs walls, rooms, and roof ,HTML defines headings, paragraphs, images, links, and sections of a website.
-It does not provide styling or functionality — it only provides structure.
+Just like a house has walls, rooms, doors, and a roof to create its structure,
+HTML creates the basic structure of a website using elements like headings, sections, and images.
 
 <!--Why HTML is called a Markup Language? -->
-HTML is called a Markup Language because it uses tags to define and structure content on a web page.
-<h1> marks text as a heading.
+HTML is called a Markup Language because it uses tags to "mark up" content and define its structure on a web page.
+For example, <h1> marks text as a main heading.
 
 <!--What is the difference between HTML and CSS? -->
 HTML is used to create the structure of a webpage,
@@ -16,7 +16,6 @@ while CSS is used to style and design the webpage.
 
 Example:
 HTML is the structure of a house, CSS is the paint, furniture, lightingss and decoration.
-
 
 <!-- 🔥 2️⃣ What is the basic structure of an HTML page? -->
 <!DOCTYPE html>
@@ -36,7 +35,7 @@ HTML is the structure of a house, CSS is the paint, furniture, lightingss and de
 <head> → meta info
 <body> → visible content
 
-<!--<!DOCTYPE Html> <html> <title> <head> <body> -->
+<!--<!DOCTYPE Html> -->
 ✅<!DOCTYPE Html>
 It tells the browser that the document is an HTML5 document.
 
@@ -44,38 +43,29 @@ For example :- Blueprint of a house 🏗️
 The blueprint says whether it follows old rules or new rules.
 Builders follow those rules while constructing.
 
-DOCTYPE informs the browser about the HTML version used, so the webpage is rendered properly.
-DOCTYPE is not an HTML tag.
-
-✅ <html> Tag:-
+<!-- ✅ <html> Tag:- -->
 The <html> tag is the root element of an HTML document.
 All HTML content is written inside this tag.
 
-✅ <head> Tag:-
+<!-- ✅ <head> Tag:- -->
 The <head> tag contains metadata and other non-visible information about the webpage(title, CSS, meta)
 
 <head>
  <title>Simple Page</title>
 </head>
 
-✅ <title> Tag:-
+<!-- ✅ <title> Tag:- -->
 Title tag shows the name on the broweser tab
-
 <title>Website</title>
 
-✅ <body> Tag:-
+<!-- ✅ <body> Tag:- -->
 The <body> tag contains all visible content shown in the browser.
+It includes headings, paragraphs, images, links, forms, and other visible elements.
 
 <body>
     <h1>Hello</h1>
     <p>This is my webpage.</p>
 </body>
-
-Examples:
-Text
-Images
-Buttons
-Forms
 ----------------------------------------------------------------------------------------------------------
 <!-- 🔥 2️⃣ What is HTML5? -->
 HTML5 is the latest version of HTML that supports modern HTML rules and new features like semantic tags, audio, video and improved performance etc.
@@ -94,7 +84,7 @@ controls attribute automatically play/pause button add karta hai.
 ये सब automatically दिखाई देंगे।
 
 <!--What is the difference between HTML and HTML5? -->
-HTML (HyperText Markup Language) is the standard markup language used to create and structure web pages using elements and tags.
+HTML (HyperText Markup Language) is the standard markup language used to create the structure web pages using elements and tags.
 
 HTML5 is the latest version of HTML that supports modern HTML rules and new features like semantic tags, audio, video and improved performance etc.
 
@@ -121,11 +111,11 @@ HTML5 is better because it supports multimedia, semantic tags, improved forms, l
 -----------------------------------------------------------------------------------------------------
 <!-- Q3. What is the difference between Tag and Element? -->
 <!-- HTML -->
-HTML tags are keywords enclosed in angle brackets that tell the browser how to display content.
+HTML tags are keywords enclosed in angle brackets.
 Example: <p>, <h1>, <img>
 
 <!-- ELement -->
-Element is a complete structure consisting of opening tag, content, and closing tag.
+Element is a complete structure of opening tag, content, and closing tag.
 
 👉 Real-world example:
 Cup + tea inside ☕ = useful item
@@ -144,18 +134,17 @@ The <p> tag is used to define a paragraph of text.
 <p>This is a paragraph.</p>
 
 ✅Line break:- 
-The <br> tag is used to break a line without starting a new paragraph.
+The <br> tag is used to break a line.
 This is line one<br>
 This is line two
 
 ✅ Horizontal Line: <hr>
-The <hr> tag is used to create a horizontal line to separate content.
+The <hr> tag is used to create a horizontal.
 
 <!-- What is the difference between strong and b? -->
 <strong> is a semantic tag that indicates important content and adds meaning, while <b> is a non-semantic tag used only to make text bold without adding importance.
 
-<p>This is <strong>very important</strong> information.</p>
-
+<p>This is <strong>important</strong> information.</p>
 <p>This is <b>bold text</b>.</p>
 
 <!-- ✅ Difference Between <em> and <i> -->
@@ -171,13 +160,12 @@ The <hr> tag is used to create a horizontal line to separate content.
 <p><strong>This is strong text</strong></p>
 <p><em>This is emphasized text</em></p>
 
-
 <small> 
 Makes text smaller than normal text.
 <!-- <small>Small text</small> -->
 
 ✅ Mark: <mark>
-The <mark> tag is used to highlight text.
+<mark>highlight text.
 <!--<mark>Highlighted text</mark>-->
 
 <del>
@@ -185,12 +173,10 @@ Shows deleted/removed text.
 <!-- <del>Deleted text</del> -->
 
 <sup>
-Shows superscript text (above line).
 It is used to write small text above the normal line.
 <!-- X<sup>2</sup> -->
 
 <sub>
-Shows subscript text (below line).
 It is used to write small text below the normal line.
 <!-- H<sub>2</sub>O -->
 
@@ -201,20 +187,17 @@ Text Underlined(below text)
 ✅ Preformatted Text: <pre>
 Including spaces and line breaks.
 
-<pre>
-Name    Age    City
-Amit    22     Delhi
-Riya    21     Mumbai
-</pre>
+<mark> is used to highlight text.
+<del> shows deleted or removed text.
+<sup> displays superscript text like X².
+<sub> displays subscript text like H₂O.
+<u> underlines text.
+<pre> displays preformatted text and preserves spaces and line breaks.
 ------------------------------------------------------------------------------------------------------------
 <!-- 🟢 3️⃣ Links-->
- An HTML link is used to connects one web page to another and allows navigation on the web.
+An HTML link is used to connect one webpage to another and allows users to navigate between pages.
  <!-- for example,  -->
-You are in one room.
-You open a door → you enter another room.
-👉 The door is like a link.
-👉 The other room is the destination page.
-
+ It is created using the <a> (anchor) tag with the href attribute, which specifies the destination URL.
 <a href="https://www.google.com">Go to Google</a>
 
 4️⃣ Code Explanation
@@ -251,21 +234,16 @@ HTML:-
 <p> → Person
 
 <!-- 🟢 Commonly Used HTML Attributes -->
-
 <!-- 4️⃣ Difference Between id and class? -->
-The id attribute is used to uniquely identify a single element on a webpage, while class attribute is used to apply the same style or behavior to multiple elements.
-
-Imagine a classroom 👩‍🏫
-Every student has a roll number → That is like an id (unique).
-Many students can belong to the same section (A, B, C) → That is like a class.
-
 Id attribute:- The id attribute is used to uniquely identify a single element on a webpage.
-A page should not have multiple elements with the same id.
+
 Imagine a classroom 👩‍🏫
 Every student has a roll number → That is like an id (unique).
 <h1 id="title">Hello</h1>
 
-Class attribute :- The class attribute is used to group multiple elements together so that they can share the same styling or behavior.
+Class attribute :- 
+class attribute is used to apply the same style or behavior to multiple elements.
+
 Imagine a classroom 👩‍🏫
 Many students can belong to the same section (A, B, C) → That is like a class.
 <p class="text">Para1</p>
@@ -281,7 +259,6 @@ If we use the same id multiple times, JavaScript and CSS may not work properly a
 👉 It will select only the first element.
 So second element ignore ho sakta hai ❌
 
-
 <!-- 3️⃣ src -->
 <!-- src (source) -->
 src is an attribute that defines the image path.
@@ -293,7 +270,6 @@ batata hai.
 ✅ href(Hypertext Reference):-
 href is an attribute that defines the destination of a hyperlink.
 Hindi:-
-href ek attribute hai jo batata hai ki link par click karne ke baad user kahan jayega.
 <a href="about.html">About</a>
 Example:-
 Board par likha hota hai: Delhi → 10 km
@@ -301,22 +277,17 @@ Road khud board nahi hota, bas destination batata hai
 
 <!-- 5️⃣ alt -->
 <!-- What is the use of the alt attribute? -->
-The alt attribute provides alternative text if image fails to load .
+The alt attribute provides alternative text if image fail or load.
 
-<img src="image.jpg" alt="Girl coding on laptop">
-Example:-
-Think about a newspaper 📰
+<!-- 🌍 Real-life Example -->
+Like newspaper photo caption if image is missing.
 
-If the photo is missing,
-👉 the caption written below tells you what the photo was about.
+<!-- 🧠 Why Important? -->
+SEO
+Accessibility
+Screen readers read it
 
-
-Socho newspaper ki photo missing ho jaye
-👉 neeche likha caption batata hai photo kis baare me hai
-📌 HTML me alt wahi caption hai
-
-<!-- ✅ Why alt is important? -->
-The alt attribute is used to describe an image. It helps when the image does not load, improves accessibility for screen readers, and supports SEO.
+<img src="product.jpg" alt="Red sports shoes">
 
 <!-- 8️⃣ target -->
 ✅ target="_blank":-
@@ -329,10 +300,9 @@ The Anchor tag is Used to create hyperlinks.
 <a href="https://google.com">Go to Google</a>
 
 <!--1️⃣ What is Meta Tag? -->
-A meta tag provides information about the webpage.
+Meta tags provide information about the webpage (SEO, charset, viewport).
 <!-- 🌍 Real-world: -->
 Used for:
-Character encoding
 SEO
 Responsive design
 
@@ -343,7 +313,10 @@ charset → supports special characters
 viewport → responsive design
 
 <!-- What is the viewport meta tag? -->
-The viewport meta tag controls the layout on mobile devices.
+viewport Controls layouts and responsive design on mobile.
+<!-- 🌍 Real-life -->
+Adjust zoom for mobile screens.
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ---------------------------------------------------------------------
 <!-- ✅ Comments in HTML -->
@@ -352,13 +325,11 @@ Comments are used to explain code and are not displayed in the browser.
 
 <!-- ✅ Case Sensitivity -->
 HTML tags are not case-sensitive, but lowercase is best practice.
----------------------------------------------------------------------------
----------------------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 <!-- Form Attributes -->
 <!-- What is required attribute? -->
 required is a Boolean attribute that makes an input field mandatory before submitting the form.
-
-<input type="text" required>
 
 <form action="/login" method="post">
   <input type="email" placeholder="Enter Email" required>
@@ -367,7 +338,7 @@ required is a Boolean attribute that makes an input field mandatory before submi
 </form>
 
 <!-- Why is required called a boolean attribute? -->
-Because its value depends on its presence. If the attribute is present, it is considered true; if it is absent, it is false.
+Because its value depends on its presence. If the attribute is present, it is considered true; if it is absent, it is considered false.
 
 <!-- What is placeholder? -->
 The placeholder attribute shows temporary hint text inside an input field.
@@ -376,7 +347,6 @@ The placeholder attribute shows temporary hint text inside an input field.
 
 <!-- What is autocomplete? -->
 The autocomplete attribute allows the browser to automatically fill previously entered values.
-
 <input type="email" autocomplete="on">
 
 <!-- What is novalidate? -->
@@ -392,7 +362,7 @@ The pattern attribute defines a regular expression to validate input.
 -------------------------------------------------------------------------
 <!-- Module 4: Lists -->
 <!-- ✅ What are Lists in HTML? -->
-An HTML List is used to display items in an ordered or unordered format.
+HTML lists are used to display a group of related items in an ordered or unordered format.
 
 ✅ Ordered List <ol> :-
 Items are displayed with numbers.<!-- 
@@ -446,36 +416,17 @@ Tags used:
 --------------------------------------------------------------------------------------
 -------------------------------
 <!-- what is Table -->
-An Html table is used to Display data in rows and columns.
+An HTML Table is used to Display data in rows and columns.
 Example: marksheet, employee list, timetable etc.
-
 <!-- Basic Table Tags -->
-<table>
-Used to create a table.
+The <table> tag is used to create a table.
+<tr> defines a table row.
+<th> defines a header cell.
+<td> defines a normal data cell.
 
-<tr> (table row)
-Used to create a row in the table.
-
-<td> (table data)
-Used to create a cell (data) in a row.
-
-<th> (table heading)
-Used for heading cells (bold & center by default).
-
-<!-- Table ke main tags -->
-<table> → table banata hai
-<tr> → table row
-<th> → table heading (bold hoti hai)
-<td> → table data (normal cell)
-
-<!-- rowspan -->
-Used to merge rows vertically.
-<td rowspan="2">HTML</td>
-
-<!-- colspan -->
-Used to merge columns horizontally.
-<td colspan="2">Web</td>
-
+<!-- What is rowspan and colspan?” -->
+rowspan is used to merge cells vertically across multiple rows.
+colspan is used to merge cells horizontally across multiple columns.
 
 Example:-
 <table border="1">
@@ -526,20 +477,11 @@ Login page, Registration page. Contact form..
   <input type="email" placeholder="Enter your email">
   <button type="submit">Submit</button>
 </form>
-Logic:-
-<input> collects data
-type="password" hides text
-submit sends data
-
-✅ Important Attributes:
-action → Data किस page पर भेजना है
-method → Data कैसे भेजना है (GET / POST)
+ 
 action defines where to send the data.
 method defines how to send the data (GET / POST).
 
 <!-- 🔥 6️⃣ What is the difference between GET and POST in forms? -->
-GET and POST are two HTTP methods used to send form data from the client (browser) to the server.
-
 ✅ 1️⃣ GET Method:-
 GET method is used to sends data through the URL and is less secure.
 
@@ -908,7 +850,6 @@ SEO (Search Engine Optimization) is the process of optimizing a website to impro
 
 <!-- 🔥 1️⃣4️⃣ What is Accessibility? -->
 Accessibility in HTML means designing websites so that people with disabilities can use them easily.
-
 It ensures websites are usable by:
 Visually impaired users 👁️
 Hearing impaired users 👂
@@ -947,16 +888,7 @@ Examples:
   <figcaption>Sample Image</figcaption>
 </figure>
 
-<!-- Difference between nav and header? -->
-Top section of page |
-| `<nav>`     | Navigation links 
 
 <!-- What is aside used for? -->
 <aside> is used for sidebar content like ads, related links, or extra information.
-
-<!-- What are data-* attributes? -->
-data-* attributes store custom data in HTML elements.
-
-<div data-user-id="123"></div>
-
 =========================================================================================================

@@ -1,11 +1,12 @@
 <!-- 1️⃣ What is HTML? -->
-HTML(HyperText Markup Language) is the standard markup language used to create the structure of a web page.
-HTML defines elements like headings, paragraphs, images, links, forms, etc.
+HTML (HyperText Markup Language) is the standard markup language used to create the structure of web pages.
+It defines elements like headings, paragraphs, images, links, forms, and sections.
+HTML provides only structure — not styling or functionality.
 
-For example like the structure of a house includs walls, rooms, and roof ,HTML defines headings, paragraphs, images, links, and sections of a website.
-It does not provide styling or functionality — it only provides structure.
+Just like a house has walls, rooms, doors, and a roof to create its structure,
+HTML creates the basic structure of a website using elements like headings, sections, and images.
 
-<!-- 🔥 1. What is Semantic HTML? Why is it important? -->
+<!-- 1. What is Semantic HTML? Why is it important? -->
 Semantic tags are HTML tags that clearly describe the meaning of the content inside them.
 Example:
 <header>
@@ -22,7 +23,7 @@ News blocks = Articles
 Bottom copyright section = Footer
 A website follows the same basic structure.
 
-Exampl4
+Example
 Like labeling boxes in a store:
 “Fruits” box
 “Vegetables” box
@@ -121,6 +122,10 @@ Screen readers read it
 
 <img src="product.jpg" alt="Red sports shoes">
 
+<!-- 1️⃣6️⃣ What is the difference between <link> and <a>? -->
+
+<link> → Connects external resources (CSS)
+<a> → Creates hyperlinks
 
 <!-- 🔥 5. What is the difference between block, inline and inline-block? -->
 Block elements:-block elements takes full width and starts on new line.
@@ -152,7 +157,7 @@ The blueprint says whether it follows old rules or new rules.
 Builders follow those rules while constructing.
 
 <!-- 🔥 9. What are meta tags? -->
-Meta tags provide metadata(information) about the webpage.
+Meta tags provide information about the webpage (SEO, charset, viewport).
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -270,7 +275,7 @@ local storage Stores data in browser permanently.
   // Get data
   console.log(localStorage.getItem("username"));
 
-  // Remove data
+  // Remove data 
   localStorage.removeItem("username");
 </script>
 
