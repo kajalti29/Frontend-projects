@@ -1,12 +1,24 @@
 <!-- What is box-sizing? -->
 Controls how total width and height are calculated.
 <!-- * { box-sizing: border-box; } -->
-17. What is justify-content?
+
+<!-- 17. What is justify-content? -->
 Aligns items along main axis.
-18. What is align-items?
+
+<!-- 18. What is align-items? -->
 Aligns items along cross axis.
 
+<!-- What is gap? -->
+Adds spacing between items.
 
+<!-- 27. What is min-width vs max-width? -->
+Defines minimum and maximum width limits.
+
+<!-- 36. What are vh and vw? -->
+Viewport height & width units.
+
+
+=========================================================
 <!-- 1️⃣ What is CSS? -->
 CSS(Cascading Style Sheets) is used to control layout and design of web pages.
 It allows developers to style HTML elements by changing colors, fonts, spacing, alignment, and making websites responsive for different screen sizes.
