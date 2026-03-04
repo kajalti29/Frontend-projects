@@ -355,19 +355,16 @@ HTML tags are not case-sensitive, but lowercase is best practice.
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 <!-- Form Attributes -->
-
 <!-- What is required attribute? -->
-user must fill out the field before submitting the form.
+required is a Boolean attribute that makes an input field mandatory before submitting the form.
 
-
-The required attribute is a boolean attribute used in HTML form controls (such as <input>, <textarea>, and <select>) to specify that the user must fill out the field before submitting the form.
 <input type="text" required>
-<!-- 
+
 <form action="/login" method="post">
   <input type="email" placeholder="Enter Email" required>
   <input type="password" placeholder="Enter Password" required>
   <button type="submit">Login</button>
-</form> -->
+</form>
 
 <!-- Why is required called a boolean attribute? -->
 Because its value depends on its presence. If the attribute is present, it is considered true; if it is absent, it is false.
@@ -910,14 +907,20 @@ SEO (Search Engine Optimization) is the process of optimizing a website to impro
 ✔ Generates organic leads
 
 <!-- 🔥 1️⃣4️⃣ What is Accessibility? -->
-Accessibility is the practice of building websites and applications that can be used by everyone, including people with disabilities
+Accessibility in HTML means designing websites so that people with disabilities can use them easily.
+
+It ensures websites are usable by:
+Visually impaired users 👁️
+Hearing impaired users 👂
+Motor disabilities ♿
+Screen reader users
 
 <!-- ✅ Why Accessibility is Important? -->
 Equal access for everyone
-Better user experience
+Improves user experience
+Required by many companies & laws
 Improves SEO
-Improves usability
-
+Makes website professional
 
 <!-- ❓ How would you create a simple product card? -->
 <div class="card">

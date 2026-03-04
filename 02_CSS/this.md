@@ -1,77 +1,4 @@
 <!-- CSS FULL NOTES -->
-<!-- 1️⃣ What is CSS? -->
-CSS(Cascading Style Sheets) is used to control layout and design of web pages.
-It allows developers to style HTML elements by changing colors, fonts, spacing, alignment, and making websites responsive for different screen sizes.
-
-<!-- Real-world Example: -->
-HTML is the structure of a house, CSS is the paint, furniture, lightingss and decoration.
-
-<!-- 
-h1 {
-  color: blue;
-  text-align: center;
-} -->
-
-<!-- ❓ Why is it called “Cascading” Style Sheets? -->
-👉 Because styles can come from multiple sources (inline, internal, external), and they follow a priority order (cascade).
-
-<!-- ❓ Why CSS is used? -->
-CSS is used because:
-* makes websites beautiful
-* Makes websites responsive.
-* Separates content(HTML) from design(CSS).
-* Saves time
-* Easy maintenance
-* Improves user experience.
-
-<!-- 🧱 CSS Syntax -->
-selector {
-  property: value;
-}
-
-Example:-
-p {
-  color: red;
-  font-size: 18px;
-}
-----------------------------------------------------------------------------------
-<!-- Types of CSS -->
-1️⃣ Inline CSS:-
-2️⃣ Internal CSS
-3️⃣ External CSS ⭐ (Best)
-
-<!-- Inline -->
-<p style="color:red;">Hello</p>
-
-<!-- Internal -->
-<style>
-p { color: blue; }
-</style>
-
-<!-- External -->
-<link rel="stylesheet" href="style.css">
-
-<!-- Q: What are the types of CSS? -->
-There are three types of CSS: Inline, Internal, and External.
-
-
-<!-- 1️⃣ Inline CSS:- -->
-An inline css used to applied directly inside an html tag using the style attribute.
-
-<h1 style="color:blue;">Hello</h1>
-
-<!-- 2️⃣ Internal CSS -->
-Internal CSS is written <style> tag in <head> section of HTML.
-
-<style>
-h1 { color: green; }
-</style>
-
-<!-- 3️⃣ External CSS ⭐ (Best) -->
-written in a separate .CSS file and linked to HTML using <link> tag.
-
-<!-- 📌 Interview Q: Which is best? -->
-✅ External CSS
 --------------------------------------------------------------------------------------------------------------
 <!-- 🎯 CSS Selectors -->
 <!-- ✅ What is CSS Selector? -->
@@ -420,7 +347,7 @@ padding is inside space
 👉 Space outside the border.
 <!-- margin: 15px; -->
 
-Margin
+Margin 
   └── Border
         └── Padding
               └── Content
