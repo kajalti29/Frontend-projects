@@ -459,3 +459,28 @@ IDs must be unique.
 Why required attribute not working?
 Input type incorrect
 
+=====================================================================================================
+<!-- 💼 Scenario-Based Questions -->
+<!-- 2️⃣6️⃣ Image not loading. Why? -->
+Possible reasons:
+Wrong path
+Spelling mistake
+Server issue
+
+<!-- 2️⃣7️⃣ Why is form not submitting? -->
+Missing name attribute
+Required field empty
+Button type incorrect
+
+<!-- 2️⃣8️⃣ Why is CSS not applying? -->
+Wrong selector
+CSS not linked
+Specificity issue
+
+<!-- 2️⃣9️⃣ Why is website not responsive? -->
+Missing viewport meta tag
+Fixed width in px
+
+<!-- 3️⃣0️⃣ Why id should not be repeated? -->
+Because id must be unique in DOM.
+
