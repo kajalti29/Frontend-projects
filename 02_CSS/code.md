@@ -358,3 +358,18 @@ animation: move 2s linear infinite;
 
 
 
+===================================================================================================================================================
+Perspective sirf 3D effect ke liye hota hai.
+
+.parent{
+perspective:1000px;
+}
+
+.card{
+    transition:0.4s;
+    transform: 0.5s;
+}
+
+.card:hover{
+transform:rotateY(20deg);
+}
