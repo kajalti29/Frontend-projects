@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    /* background for glass effect */
+    background:linear-gradient(135deg,#ff7eb3,#65d6ce);
+    font-family:Arial;
+}
+
+.card{
+    width:320px;
+    height:200px;
+    padding:20px;
+    border-radius:15px;
+
+    /* glass effect */
+    background:rgba(255,255,255,0.1);
+    backdrop-filter:blur(12px);
+    -webkit-backdrop-filter:blur(12px);
+
+    border:1px solid rgba(255,255,255,0.3);
+
+    position:relative;
+    color:white;
+}
+
+/* right top text */
+.right{
+    position:absolute;
+    top:15px;
+    right:15px;
+    font-size:14px;
+}
+
+/* left bottom text */
+.left-bottom{
+    position:absolute;
+    bottom:15px;
+    left:15px;
+}
+
+.left-bottom h2{
+    margin:0;
+}
+
+.left-bottom p{
+    margin-top:5px;
+    font-size:14px;
+}
