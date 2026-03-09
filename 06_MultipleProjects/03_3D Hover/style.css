@@ -1,0 +1,46 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#333;
+}
+
+.card{
+    width:250px;
+    height:180px;
+    background:#111;
+    border-radius:10px;
+    position:relative;
+    padding:15px;
+    perspective: 1000px;
+    transition: 0.4s;
+}
+
+.card:hover{
+    transform: rotatex(15deg) rotate(-15deg);
+}
+
+.card img{
+    width:40px;
+    position:absolute;
+    border-radius: 10px;
+    top:15px;
+    left:15px;
+}
+
+.text{
+    position:absolute;
+    bottom:15px;
+    left:15px;
+    color: white;
+}
+
+.text h2{
+    margin:0;
+}
+
+.text p{
+    margin:0;
+    font-size:14px;
+}
