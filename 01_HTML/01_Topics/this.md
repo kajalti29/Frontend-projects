@@ -86,7 +86,7 @@ controls attribute automatically play/pause button add karta hai.
 <!--What is the difference between HTML and HTML5? -->
 HTML (HyperText Markup Language) is the standard markup language used to create the structure web pages using elements and tags.
 
-HTML5 is the latest version of HTML that supports modern HTML rules and new features like semantic tags, audio, video and improved performance etc.
+HTML5 is the latest version of HTML that supports modern HTML rules and new features like semantic tags, audio/video support, local storage,better APIs and improved performance etc.
 
 <!-- Real-World Example -->
 Old phone vs smartphone 📱 — HTML5 has more features

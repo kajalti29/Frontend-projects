@@ -1,3 +1,65 @@
+<!-- 🔥 15. What is accessibility in HTML? -->
+Accessibility means designing websites so everyone can use them, including people with disabilities.
+Example:
+screen readers
+keyboard navigation
+
+<img src="cat.jpg" alt="Cute cat sitting on chair">
+
+📌 Screen readers read the alt text.
+
+<!-- 🧠 Why Accessibility is Important? -->
+Improves user experience
+Required by many companies & laws
+Improves SEO
+Makes website professional
+
+<!-- 7️⃣ What is ARIA? -->
+ARIA (Accessible Rich Internet Applications) helps improve accessibility for dynamic content.
+
+<!-- Example attributes: -->
+aria-label
+aria-hidden
+role
+📌 Helps screen readers understand UI elements.
+<button aria-label="Close Menu">X</button>
+
+<!-- 1️⃣1️⃣ SEO Friendly HTML Practices -->
+Important practices:
+Use semantic tags
+Use proper heading structure
+Add alt text for images
+Add meta description
+Use clean URLs
+
+<!-- How Browser Rendering Works -->
+Steps:
+1️⃣ Browser reads HTML
+2️⃣ Builds DOM tree
+3️⃣ Reads CSS → CSSOM
+4️⃣ Combines DOM + CSS → Render tree
+5️⃣ Displays webpage
+
+<!-- How do you handle Accessibility in HTML? -->
+Ways:
+Use semantic HTML
+Add alt text
+Use ARIA attributes
+Proper heading structure
+Keyboard navigation
+
+Example
+<button aria-label="Search">
+🔍
+</button>
+<!-- 1️⃣4️⃣ How to Optimize HTML for SEO? -->
+Methods:
+✔ Proper headings
+✔ Meta tags
+✔ Image alt text
+✔ Semantic HTML
+✔ Fast loading
+-----------------------------------------------------
 <!-- 1️⃣ What is HTML? -->
 HTML (HyperText Markup Language) is the standard markup language used to create the structure of web pages.
 It defines elements like headings, paragraphs, images, links, forms, and sections.
@@ -141,6 +203,9 @@ Inline element:- inline element takes ony required width and does not start new 
 Examples:
 Inline → <span>, <a>, <strong>, 
 
+<!-- 📌 Real-life example: -->
+Paragraphs are block elements while links are inline.
+
 <div>This is block</div>
 <span>This is inline</span>
 
@@ -162,7 +227,10 @@ The blueprint says whether it follows old rules or new rules.
 Builders follow those rules while constructing.
 
 <!-- 🔥 9. What are meta tags? -->
-Meta tags provide information about the webpage (SEO, charset, viewport).
+Meta tags provide information about the webpage to brower (SEO, charset, viewport).
+
+<!-- 📌 Real-life example: -->
+Google reads meta description to show page summary in search results.
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -254,25 +322,10 @@ The placeholder attribute shows temporary hint text inside an input field.
 </form>
 
 <!-- 🔥 14. What is iframe? -->
-iframe is used to embed another webpage inside current webpage.
-<iframe src="https://example.com" width="400" height="300"></iframe>
-
-<!-- 🔥 15. What is accessibility in HTML? -->
-Accessibility in HTML means designing websites so that people with disabilities can use them easily.
-It ensures websites are usable by:
-Visually impaired users 👁️
-Hearing impaired users 👂
-Motor disabilities ♿
-Screen reader users
-
-<!-- 🌍 Real-life -->
-Ramp for wheelchair users.
-
-<!-- 🧠 Why Accessibility is Important? -->
-Improves user experience
-Required by many companies & laws
-Improves SEO
-Makes website professional
+iframe is used to embed another webpage inside your current webpage.
+<!-- 📌 Real-life example: -->
+Embedding Google Maps or YouTube videos.
+<iframe src="https://example.com" width="400" height="300"></iframe> 
 
 <!-- Difference between readonly and disabled -->
 readonly:-
@@ -281,7 +334,16 @@ disabled:-
 Cannot edit & does NOT submit value.
 
 <!-- What is local storage? -->
-local storage Stores data in browser permanently.
+Local Storage is a client-side web storage mechanism that stores data in key-value pairs in the browser permanently.
+
+<!-- Real-Life Example -->
+Imagine a website that saves:
+Dark mode preference
+Cart items  
+login status
+Even if you close the browser and open it again,
+your settings are still saved.
+👉 That is localStorage.
 
 <script>
   // Store data
