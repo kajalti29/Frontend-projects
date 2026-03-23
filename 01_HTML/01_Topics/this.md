@@ -10,6 +10,7 @@ HTML creates the basic structure of a website using elements like headings, sect
 HTML is called a Markup Language because it uses tags to "mark up" content and define its structure on a web page.
 For example, <h1> marks text as a main heading.
 
+
 <!--What is the difference between HTML and CSS? -->
 HTML is used to create the structure of a webpage,
 while CSS is used to style and design the webpage.
@@ -349,7 +350,7 @@ The placeholder attribute shows temporary hint text inside an input field.
 The autocomplete attribute allows the browser to automatically fill previously entered values.
 <input type="email" autocomplete="on">
 
-<!-- What is novalidate? -->
+<!-- What is no-validate? -->
 The novalidate attribute disables HTML5 form validation.
 <form novalidate>
 
@@ -397,8 +398,6 @@ Real-World Example
 
 ✅ Description List <dl>:-
 A description list is used to show terms and their descriptions.
-
-Tags used:
 
 <dl> → Description list
 <dt> → Description term
@@ -461,10 +460,8 @@ tr:nth-child(odd) {
 tbody tr:nth-child(even) {
     background-color: #e6f2ff;
 }
-
-🎯 Real Interview Question
 <!-- Q: Why do we use border-collapse: collapse? -->
-A:
+
 To avoid double borders and make the table look clean.
 -------------------------------------------------------------------------------------------------------------------
 <!-- 🔥 5️⃣ What is Form? -->
@@ -484,25 +481,23 @@ method defines how to send the data (GET / POST).
 <!-- 🔥 6️⃣ What is the difference between GET and POST in forms? -->
 ✅ 1️⃣ GET Method:-
 GET method is used to sends data through the URL and is less secure.
-
+<!-- Real-world Example: -->
+Google search bar uses GET.
 <form method="GET" action="/search">
   <input type="text" name="keyword">
   <button type="submit">Search</button>
 </form>
-Real-world Example:
-Google search bar uses GET.
 
 ✅ 2️⃣ POST Method:-
 POST method is used to send data in the request body and is more secure.
-
+<!-- Real-world Example: -->
+Login forms use POST.
 <form method="POST" action="/login">
   <input type="text" name="username">
   <input type="password" name="password">
   <button type="submit">Login</button>
 </form>
 👉 Data URL me show nahi hota.
-Real-world Example:
-Login forms use POST.
 
 <!-- What are different input types in HTML5? -->
 HTML5 provides many input types:
@@ -533,14 +528,26 @@ Radio buttons allow the user to select only one option from a group, while check
 We connect a form to the backend using the action and method attributes.
 --------------------------------------------------------------------------------------------------
 <!-- 3️⃣ What is Semantic HTML? -->
-Semantic tags are HTML tags that clearly describe the meaning of the content inside them.
-Examples:
-Common Semantic Tags:
+Semantic tags are HTML tags that clearly describe the meaning of the content inside them. They improve SEO and accessibility.
+Example:
 <header>
 <nav>
 <section>
 <article>
 <footer>
+
+👉 Real-world example:
+Like naming rooms in a house: Kitchen, Bedroom
+Not Room1, Room2
+
+<!-- 🌍 Real Example -->
+Think about a newspaper 📰:
+Top part = Header
+Menu section = Navigation
+News blocks = Articles
+Bottom copyright section = Footer
+A website follows the same basic structure.
+
 
 | Tag         | Purpose             |
 | ----------- | ------------------- |
@@ -554,18 +561,6 @@ Common Semantic Tags:
 
 <div>This is header</div> ❌ Wrong way:
 <header>This is header</header> ✅ Correct way
-
-👉 Real-world example:
-Like naming rooms in a house: Kitchen, Bedroom
-Not Room1, Room2
-
-<!-- 🌍 Real Example -->
-Think about a newspaper 📰:
-Top part = Header
-Menu section = Navigation
-News blocks = Articles
-Bottom copyright section = Footer
-A website follows the same basic structure.
 
 💻 Code
 <header>Logo</header>
@@ -603,9 +598,11 @@ Block elements:-block elements takes full width and starts on new line.
 Examples:
 Block → <div>, <p>, <h1>
 
-Inline element:- inline element takes ony required width and does not start new line.
+Inline element:- inline element takes only required width and does not start new line.
 Examples:
 Inline → <span>, <a>, <strong>, 
+
+<!-- Paragraphs are block elements while links are inline. -->
 
 <div>This is block</div>
 <span>This is inline</span>
@@ -645,7 +642,7 @@ localStorage.setItem("name", "Kajalti");
 console.log(localStorage.getItem("name"));
 </script>
 
-<!-- 🔹 Basic Syntax -->
+<!--Basic Syntax -->
 1️⃣ Store Data
 <!-- localStorage.setItem("username", "Kajal"); -->
 2️⃣ Get Data
@@ -702,26 +699,6 @@ Employee
 Everyone can have an ID card.
 
 --------------------------------------------------------------------------------------------
-<!-- What is the difference between strong and b? -->
-<strong> is a semantic tag that indicates important content and adds meaning, while <b> is a non-semantic tag used only to make text bold without adding importance.
-
-<p>This is <strong>very important</strong> information.</p>
-
-<p>This is <b>bold text</b>.</p>
-
-<!-- ✅ Difference Between <em> and <i> -->
-<em> is a semantic tag used to emphasize text and add meaning, while <i> is a non-semantic tag used only to display text in italic style.
-
-<p>I <em>really</em> like coding.</p>
-<p>This is <i>italic</i> text.</p>
-
-<!-- ✅ Difference Between <strong> and <em> -->
-<strong> is a semantic tag that indicates important content and adds meaning, <em> is a semantic tag used to emphasize text and add meaning.
-<strong> → Bold
-<em> → Italic
-<p><strong>This is strong text</strong></p>
-<p><em>This is emphasized text</em></p>
-
 <!-- different between Semantic vs Non-Semantic Elements -->
 Semantic elements clearly describe the meaning and structure of content, while non-semantic elements are generic containers used mainly for styling and layout.
 <!-- Semantic -->

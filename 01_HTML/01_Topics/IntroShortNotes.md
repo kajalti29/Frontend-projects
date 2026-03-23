@@ -6,8 +6,6 @@ keyboard navigation
 
 <img src="cat.jpg" alt="Cute cat sitting on chair">
 
-📌 Screen readers read the alt text.
-
 <!-- 🧠 Why Accessibility is Important? -->
 Improves user experience
 Required by many companies & laws
@@ -46,21 +44,21 @@ Use semantic HTML
 Add alt text
 Use ARIA attributes
 Proper heading structure
-Keyboard navigation
-
+Keyboard navigation        
 Example
 <button aria-label="Search">
 🔍
 </button>
-<!-- 1️⃣4️⃣ How to Optimize HTML for SEO? -->
+
+<!--How to Optimize HTML for SEO? -->
 Methods:
 ✔ Proper headings
-✔ Meta tags
+✔ Meta tags 
 ✔ Image alt text
 ✔ Semantic HTML
 ✔ Fast loading
 -----------------------------------------------------
-<!-- 1️⃣ What is HTML? -->
+<!-- 1️⃣ What is HTML? --> 
 HTML (HyperText Markup Language) is the standard markup language used to create the structure of web pages.
 It defines elements like headings, paragraphs, images, links, forms, and sections.
 HTML provides only structure — not styling or functionality.
