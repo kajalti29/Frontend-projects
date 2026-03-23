@@ -201,11 +201,11 @@ similar inline but can set width & height
 
 <!-- 8️⃣ What is position property? -->
 <!-- 🔥 4️⃣ What is Position in CSS? -->
-The position property is used to control how an element are placed on the webpage.
+The position property is used to define how an element are placed on the webpage.
 It works with:
 top
 right
-bottom
+bottom 
 left
 z-index 
 <!-- ✅ Types -->
@@ -351,14 +351,14 @@ Fits columns automatically.
 A Media Query is used to apply different styles based on the screen size, device type, or resolution.
 👉 It helps make a website responsive (mobile, tablet, desktop friendly).
 
-<!-- 
+<!--
 /* Desktop */
 .container {
   display: flex;
 }
 
 /* Mobile */
-@media (max-width: 600px) {
+@media (max-width: 600px) { 
   .container {
     display: block;
   }

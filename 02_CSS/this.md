@@ -1,5 +1,3 @@
-<!-- CSS FULL NOTES -->
---------------------------------------------------------------------------------------------------------------
 <!-- 🎯 CSS Selectors -->
 <!-- ✅ What is CSS Selector? -->
 CSS Selector is used to select HTML elements for styling.
