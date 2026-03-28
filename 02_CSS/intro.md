@@ -154,8 +154,10 @@ padding is inside space
 <!-- margin: 15px; -->
 
 <!-- 🔥 4️⃣ What is the difference between margin and padding? -->
-Margin → Space outside element
-Padding → Space inside element
+“Margin is the space outside the element, while padding is the space inside the element.”
+
+“Margin is the space outside the element and it controls the distance between elements.
+ Padding is the space inside the element, between the content and the border, and it controls the space within the element.”
 
 2️⃣ Padding:-
 👉 Space between content and border.
@@ -209,12 +211,12 @@ bottom
 left
 z-index 
 <!-- ✅ Types -->
-static (default)
+static (default) 
 relative
 absolute
 fixed
 sticky
-<!-- 
+<!--  
 .box {
   position: absolute;
   top: 50px;
@@ -231,14 +233,20 @@ Example:
   background: #fff;
 }
 
-<!-- ✅ 5. What is the difference between relative, absolute, and fixed? -->
-* relative → moves relative to its normal position
+<!--1. static (default) -->
+“Static is the default position where elements appear normally.” 
 
-* absolute → Moves relative to nearest positioned parent
+Element normal flow me rehta hai
+👉 koi change nahi hota
 
-* fixed → fixed to the viewport (does not scroll)
-* sticky → Acts relative until scroll, then fixed.
+<!--5. What is the difference between relative, absolute, and fixed? -->
+* Relative position → Relative position moves the element from its original position.
 
+* Absolute Position → Absolute Position Moves relative to nearest positioned parent.
+
+* Fixed position → fixed to the viewport (does not scroll)
+
+“Sticky position acts like relative at first and then becomes fixed while scrolling.”
 <!-- 🔥 7️⃣ What is z-index? -->
 Controls stacking order of positioned elements.
 <!-- 
@@ -275,15 +283,19 @@ overflow: auto;
 <!-- What is float? -->
 Used for layout before flexbox
 ---------------------------------------------------------------------
-<!-- 🔥 5️⃣ What is Flexbox? -->
-Flexbox is a one-dimensional layout system used to align items horizontally or vertically.
-<!-- 🌍 Real-World Example -->
+<!--5️⃣ What is Flexbox? -->
+Flexbox is a one-dimensional layout system in CSS used to design flexible and responsive layouts.
+It helps align items easily in horizontally or vertically.
+<!-- 🌍 Real-World Example -->  
 Like arranging books on a shelf(almari ya rak) 📚.
 
-Important properties:
-display: flex
-justify-content
-align-items
+<!-- Important properties:- -->
+display: flex → activates flexbox
+flex-direction → row / column
+justify-content → horizontal alignment
+align-items → vertical alignment
+gap → space between items
+
 <!-- 
 .container {
   display: flex;
@@ -308,7 +320,7 @@ Wrap items.
 flex-wrap ka matlab hai items ko next line me bhejna jab space kam ho.
 
 <!-- gap in flex? -->
-Space between items
+Space between items 
 
 <!-- 2️⃣8️⃣ Difference align-items vs align-content? -->
 align-items → single line
@@ -398,15 +410,6 @@ Flexbox / Grid
   }
 } -->
 
-<!-- 🔥 9️⃣ What is the Difference Between Absolute and Relative Units? -->
-✅ 1️⃣ Absolute Units:-
-Absolute units are fixed units that do not change based on screen size or parent element.
-Examples: px, cm, mm, in, pt
-
-✅ 2️⃣ Relative Units:-
-Relative units depend on another value such as parent element, root element, or viewport size.
-Examples: %, em, rem, vw, vh
-
 -----------------------------------------------------------------------
 <!-- 🔥 🔟 What is Transition vs Animation? -->
 <!-- 🔥 1️⃣ What is CSS Transition? -->
@@ -450,6 +453,17 @@ Answer (Flexbox method – best way):
   align-items: center;
 } -->
 ----------------------------------------------------------------------------
+<!-- What is Units  -->
+“CSS units are used to define the size, length, and spacing of elements on a webpage. They help control properties like width, height, margin, padding, and font-size.”
+<!-- 🔥 9️⃣ What is the Difference Between Absolute and Relative Units? -->
+✅ 1️⃣ Absolute Units:-
+Absolute units are fixed units that do not change based on screen size or parent element.
+Examples: px, cm, mm, in, pt
+
+✅ 2️⃣ Relative Units:-
+Relative units depend on another value such as parent element, root element, or viewport size.
+Examples: %, em, rem, vw, vh
+
 <!-- ✅ 8. What is the difference between em, rem, px, %? -->
 px → 
 px is a fixed (absolute) unit that does not change with screen size or parent size.
@@ -461,11 +475,13 @@ p {
 🔹 Real Use Case
 Borders, small UI elements, icons
 
-% → relative to parent
-em → relative to parent font size
-rem → relative to root font size
+% → is relative to the parent elements size.
+em → is relative to the parent elements font size.
+rem → is relative to the root font size.
+vw and vh are relative to the viewport size, meaning the screen width and height.”
 
 <!-- What is vh and vw? -->
+vw and vh are relative to the viewport size, meaning the screen width and height.”
 Answer:
 vh → Viewport height
 vw → Viewport width
