@@ -118,13 +118,13 @@ Like a gift box 🎁
 Content = gift
 Padding = bubble wrap
 Border = box
-Margin = space outside box
+Margin = space outside box 
 
 It has 4 main parts:-
 * Content 
 * Padding
 * Border
-* Margin
+* Margin 
 <!-- 
 div {
   width: 200px;
@@ -240,6 +240,7 @@ Element normal flow me rehta hai
 👉 koi change nahi hota
 
 <!--5. What is the difference between relative, absolute, and fixed? -->
+
 * Relative position → Relative position moves the element from its original position.
 
 * Absolute Position → Absolute Position Moves relative to nearest positioned parent.
@@ -276,7 +277,7 @@ Overflow controls extra content.
 Commen Properties:-
 
 overflow: visible;
-overflow: hidden;
+overflow: hidden; 
 overflow: scroll;
 overflow: auto;
 
@@ -481,7 +482,7 @@ rem → is relative to the root font size.
 vw and vh are relative to the viewport size, meaning the screen width and height.”
 
 <!-- What is vh and vw? -->
-vw and vh are relative to the viewport size, meaning the screen width and height.”
+
 Answer:
 vh → Viewport height
 vw → Viewport width
