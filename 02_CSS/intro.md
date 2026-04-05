@@ -17,6 +17,33 @@ Defines minimum and maximum width limits.
 <!-- 36. What are vh and vw? -->
 Viewport height & width units.
 
+
+<!-- 33. Visibility vs Display -->
+visibility hides element but keeps space, display removes element completely.
+
+<!-- 39. Hover -->
+Hover applies style when mouse is over an element.
+
+<!-- 46. Cursor -->
+Cursor defines mouse pointer style.
+
+<!-- 40. Transition -->
+Transition creates smooth changes between styles.
+
+<!-- 41. Transform -->
+Transform is used to rotate, scale, or move elements.
+
+<!-- 42. Opacity -->
+Opacity controls transparency of an element.
+
+<!-- 43. Border Radius -->
+Border-radius creates rounded corners.
+
+<!-- 44. Box Shadow -->
+Box-shadow adds shadow around elements.
+
+<!-- 45. Object-fit -->
+Object-fit controls how images fit inside containers.
 ======================================================
 <!-- 1️⃣ What is CSS? -->
 CSS(Cascading Style Sheets) is used to control layout and design of web pages.
