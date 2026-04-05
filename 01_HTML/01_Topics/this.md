@@ -42,7 +42,7 @@ It tells the browser that the document is an HTML5 document.
 
 For example :- Blueprint of a house 🏗️
 The blueprint says whether it follows old rules or new rules.
-Builders follow those rules while constructing.
+The Builders follow those rules while constructing.
 
 <!-- ✅ <html> Tag:- -->
 The <html> tag is the root element of an HTML document.
@@ -276,7 +276,7 @@ Example:-
 Board par likha hota hai: Delhi → 10 km
 Road khud board nahi hota, bas destination batata hai
 
-<!-- 5️⃣ alt -->
+<!-- 5️⃣ alt attribute -->
 <!-- What is the use of the alt attribute? -->
 The alt attribute provides alternative text if image fail or load.
 
@@ -301,7 +301,7 @@ The Anchor tag is Used to create hyperlinks.
 <a href="https://google.com">Go to Google</a>
 
 <!--1️⃣ What is Meta Tag? -->
-Meta tags provide information about the webpage (SEO, charset, viewport).
+Meta tags provide information about the webpage like charset, viewport and SEO details.
 <!-- 🌍 Real-world: -->
 Used for:
 SEO
@@ -331,7 +331,6 @@ HTML tags are not case-sensitive, but lowercase is best practice.
 <!-- Form Attributes -->
 <!-- What is required attribute? -->
 required is a Boolean attribute that makes an input field mandatory before submitting the form.
-
 <form action="/login" method="post">
   <input type="email" placeholder="Enter Email" required>
   <input type="password" placeholder="Enter Password" required>
@@ -477,6 +476,13 @@ Login page, Registration page. Contact form..
  
 action defines where to send the data.
 method defines how to send the data (GET / POST).
+
+<!-- ❓ 5. What is input types? -->
+text
+email
+password
+number
+date
 
 <!-- 🔥 6️⃣ What is the difference between GET and POST in forms? -->
 ✅ 1️⃣ GET Method:-

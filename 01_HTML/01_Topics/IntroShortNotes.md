@@ -51,7 +51,6 @@ Steps:
 5️⃣ Displays webpage
 
 
-
 <!-- How do you handle Accessibility in HTML? -->
 Ways:
 Use semantic HTML
@@ -71,6 +70,15 @@ Methods:
 ✔ Image alt text
 ✔ Semantic HTML
 ✔ Fast loading
+
+<!-- What is iframe  -->
+iframe is used to embed another webpage inside a webpage.
+
+<!-- 17. Favicon -->
+Favicon is the small icon shown in the browser tab.
+
+<!-- 20. DOM -->
+DOM is the structure of a webpage that allows JavaScript to interact with HTML.
 -----------------------------------------------------
 <!-- 1️⃣ What is HTML? --> 
 HTML (HyperText Markup Language) is the standard markup language used to create the structure of web pages.
@@ -87,7 +95,7 @@ HTML5 is the latest version of HTML that supports modern HTML rules and new feat
 
 <!-- 1. What is Semantic HTML? Why is it important? -->
 Semantic tags are HTML tags that clearly describe the meaning of the content inside them. They improve SEO and accessibility.
-Example:
+Example of Semantic tags:-
 <header>
 <nav>
 <section>
@@ -173,7 +181,7 @@ The span tag is an inline element used to style small parts of text.
 <p>This is <span style="color:red;">important</span> text.</p>
 
 <!-- 🔥 3. What is the difference between id and class? -->
-“The id attribute is used to uniquely identify a single element on a webpage. In CSS, an id is selected using #.for example a classroom, every student has a unique roll number, similarly an id is used only once.
+“The id attribute is used to uniquely identify a single element on a webpage. In CSS, an id is selected using #. for example a classroom, every student has a unique roll number, similarly an id is used only once.
 <h1 id="title">Hello</h1>
 
 The class attribute is used to apply the same style or behavior to multiple elements. In CSS, a class is selected using .. for exmple a classroom, many students can belong to the same section (A, B, C), similarly a class can be used for multiple elements.”
@@ -207,7 +215,7 @@ Inline element:- inline element takes ony required width and does not start new 
 Examples:
 Inline → <span>, <a>, <strong>, 
 
-<!-- 📌 Real-life example: -->
+<!--Real-life example: -->
 Paragraphs are block elements while links are inline.
 
 <div>This is block</div>
@@ -254,12 +262,10 @@ An absolute path provides the full, complete location of a file or directory. It
 relative path defines the location of a file relative to the current working directory. 
 <img src="https://example.com/photo.jpg">
 
-
-
 <!-- 🔥 5️⃣ What is Form? -->
 An HTML Form is used to collect user input and send that data to a server for processing.
 Real Example
-Login page, Registration page. Contact form..
+Login page, Registration page. Contact form.
 
 <form action="submit.php" method="post">
   <input type="text" placeholder="Enter your name">
@@ -271,12 +277,8 @@ action defines where to send the data.
 method defines how to send the data (GET / POST).
 
 <!-- ❓ 5. What is input types? -->
-text
-email
-password
-number
-date
-
+Input types define the type of data like, text, email
+,password, number, date.
 
 <!-- 🔥 11. What is form and how does it work? -->
 An HTML Form is used to collect user input and send that data to a server for processing.
@@ -327,7 +329,7 @@ Defines label for input.
 <label for="email">Email</label>
 <input id="email">
 
-<!-- 🔥 12. What are new input types in HTML5? -->
+<!-- 12. What are new input types in HTML5? -->
 email
 number
 date
@@ -349,8 +351,8 @@ The placeholder attribute shows temporary hint text inside an input field.
   <button type="submit">Submit</button>
 </form>
 
-<!-- 🔥 14. What is iframe? -->
-iframe is used to embed another webpage inside your current webpage.
+<!--14. What is iframe? -->
+The iframe tag is used to embed another webpage inside your current webpage.
 <!-- 📌 Real-life example: -->
 Embedding Google Maps or YouTube videos.
 <iframe src="https://example.com" width="400" height="300"></iframe> 
