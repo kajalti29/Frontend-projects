@@ -248,8 +248,11 @@ Element normal flow me rehta hai
 * Fixed position → fixed to the viewport (does not scroll)
 
 “Sticky position acts like relative at first and then becomes fixed while scrolling.”
+
+
 <!-- 🔥 7️⃣ What is z-index? -->
-Controls stacking order of positioned elements.
+“z-index controls stacking order of elements.”
+
 <!-- 
 .box {
   position: relative;
@@ -284,9 +287,9 @@ overflow: auto;
 <!-- What is float? -->
 Used for layout before flexbox
 ---------------------------------------------------------------------
-<!--5️⃣ What is Flexbox? -->
-Flexbox is a one-dimensional layout system in CSS used to design flexible and responsive layouts.
-It helps align items easily in horizontally or vertically.
+<!--5️⃣ What is Flexbox? --> 
+Flexbox is a one-dimensional layout system in CSS used to design flexible and responsive layouts.It helps align items easily in horizontally or vertically.
+
 <!-- 🌍 Real-World Example -->  
 Like arranging books on a shelf(almari ya rak) 📚.
 
@@ -361,8 +364,22 @@ Fits columns automatically.
 
 -----------------------------------------------------------------
 <!-- 1️⃣4️⃣ What is media query? -->
-A Media Query is used to apply different styles based on the screen size, device type, or resolution.
+A Media Query is used to apply CSS based on the screen size.
 👉 It helps make a website responsive (mobile, tablet, desktop friendly).
+
+👉/* Mobile ke liye */
+@media (max-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+👉 Desktop ke liye
+@media (min-width: 1024px) {
+  body {
+    background-color: white;
+  }
+}
 
 <!--
 /* Desktop */

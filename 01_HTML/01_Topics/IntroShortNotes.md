@@ -1,5 +1,5 @@
 <!-- 🔥 15. What is accessibility in HTML? -->
-Accessibility means designing websites so everyone can use them, including people with disabilities.
+Accessibility means designing websites so everyone can use them, including people with disabilities using proper HTML semantics, labels, and screen-reader-friendly elements.”
 Example:
 screen readers
 keyboard navigation
@@ -11,6 +11,18 @@ Improves user experience
 Required by many companies & laws
 Improves SEO
 Makes website professional
+
+<!-- What is SEO  -->
+👉 “SEO is the process of improving website visibility in search engines using proper HTML structure,semantic elements, meta tags, and optimized content.”
+
+Like organizing books properly in a library so they are easy to find.
+
+<!-- Important for SEO: -->
+Semantic tags
+Meta tags
+Proper heading structure 
+Alt attributes
+
 
 <!-- 7️⃣ What is ARIA? -->
 ARIA (Accessible Rich Internet Applications) helps improve accessibility for dynamic content.
@@ -38,14 +50,6 @@ Steps:
 4️⃣ Combines DOM + CSS → Render tree
 5️⃣ Displays webpage
 
-<!-- What is SEO  -->
-SEO (Search Engine Optimization) means optimizing a webpage so it ranks higher in search engines.
-Like organizing books properly in a library so they are easy to find.
-<!-- Important for SEO: -->
-Semantic tags
-Meta tags
-Proper heading structure
-Alt attributes
 
 
 <!-- How do you handle Accessibility in HTML? -->
@@ -249,6 +253,30 @@ An absolute path provides the full, complete location of a file or directory. It
 <!-- relative path -->
 relative path defines the location of a file relative to the current working directory. 
 <img src="https://example.com/photo.jpg">
+
+
+
+<!-- 🔥 5️⃣ What is Form? -->
+An HTML Form is used to collect user input and send that data to a server for processing.
+Real Example
+Login page, Registration page. Contact form..
+
+<form action="submit.php" method="post">
+  <input type="text" placeholder="Enter your name">
+  <input type="email" placeholder="Enter your email">
+  <button type="submit">Submit</button>
+</form>
+ 
+action defines where to send the data.
+method defines how to send the data (GET / POST).
+
+<!-- ❓ 5. What is input types? -->
+text
+email
+password
+number
+date
+
 
 <!-- 🔥 11. What is form and how does it work? -->
 An HTML Form is used to collect user input and send that data to a server for processing.
@@ -468,21 +496,14 @@ Makes code more readable
 Provides Better structure for browsers and screen readers.
 Easy maintenance
 =========================================
-<!-- What is SEO in HTML? -->
-0-----------------------------------------
-SEO (Search Engine Optimization) means optimizing a webpage so it ranks higher in search engines.
-Like organizing books properly in a library so they are easy to find.
-<!-- Important for SEO: -->
-Semantic tags
-Meta tags
-Proper heading structure
-Alt attributes
 
-<!-- How browser renders HTML? -->
-Read HTML
-Create DOM
-Apply CSS
-Paint on screen 
+<!-- <iframe>(YouTube video, maps) -->
+The <iframe> tag is used to display another webpage inside the current your webpage.
+<iframe 
+  src="https://www.youtube.com/embed/VIDEO_ID"
+  width="300" height="200">
+</iframe>
+
 ==================================================================================================================
 EVEL 2 – 💼 20 Advanced HTML Interview Questions
 These are asked when interviewer wants to check deeper knowledge:
