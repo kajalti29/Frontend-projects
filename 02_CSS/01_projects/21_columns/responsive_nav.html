@@ -67,8 +67,16 @@
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             position: absolute;
-            top:60px;
+            top:60px; 
             right:20px;
+        }
+
+        .nav-links:active{
+            display: flex;
+        }
+
+        .hamburger{
+            display: block;
         }
        }
     </style>
@@ -88,5 +96,15 @@
     </nav>
 
     <div class="hamburger">&#9776;</div>
+
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+}); 
+    </script>
 </body>
 </html>
