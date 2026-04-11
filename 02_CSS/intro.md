@@ -580,3 +580,67 @@ nav {
   top: 0;
 }
 -----------------------------------------------------------------
+
+==============================================================================================
+<!-- 1. What is Responsive Web Design? -->
+Responsive Web Design (RWD) means a website adjusts automaticaly for different screen sizes like mobile, tablet, and desktop.
+
+For example:-
+A website shows vertical layout on mobile and horizontal layout on desktop.
+
+<!-- 2. What is viewport? -->
+Viewport is the visible area of a web page on the screen.
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- 3. What are Media Queries? -->
+Media queries are used in CSS to apply styles based on screen size or device type.
+<!-- 
+@media (max-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
+} -->
+
+
+<!-- 4. What is Mobile-First Design? -->
+It means designing the website first for mobile devices, then scaling up for larger screens.
+
+Benefits:-
+Better performance
+SEO-friendly 
+
+<!-- 6. What are Responsive Images? -->
+Images that adjust according to screen size.
+
+👉 Example:
+<!-- 
+img {
+  max-width: 100%;
+  height: auto;
+} -->
+
+<!-- 9. Difference between Flexbox and Grid? -->
+| Flexbox        | Grid            |
+| -------------- | --------------- |
+| 1D layout      | 2D layout       |
+| Row OR column  | Row + column    |
+| Simple layouts | Complex layouts |
+
+<!-- 10. What are Breakpoints? -->
+Breakpoints are screen sizes where the layout changes.
+👉 Common breakpoints:
+480px (mobile)
+768px (tablet)
+1024px (desktop)
+
+<!-- 12. How do you make a website responsive? -->
+👉 Steps:
+Use media queries
+Use flexible layouts (%, Flexbox, Grid)
+Use responsive images
+Follow mobile-first design
+
+<!--“How will you make a navbar responsive?” -->
+Use Flexbox for layout
+Use media queries 
+Convert menu into hamburger menu on mobile
