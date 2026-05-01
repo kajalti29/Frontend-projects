@@ -161,7 +161,7 @@ Used for layout and grouping large sections
 <!-- 🌍 Real-life Example -->
 div = Full row in a notebook
 
-2️⃣ <span>
+2️⃣ <span> 
 Inline element
 Takes only the required width
 Does NOT start on a new line
@@ -189,7 +189,7 @@ The class attribute is used to apply the same style or behavior to multiple elem
 <p class="text">Para2</p>
 
 <!-- 🔥 4. What is the purpose of alt attribute? -->
-The alt attribute provides alternative text for an image if it cannot load.It improves accessibility and SEO.
+The alt attribute provides alternative text if image cannot load.It improves accessibility and SEO.
 
 <!-- 🌍 Real-life Example -->
 Like newspaper photo caption if image is missing.
@@ -275,6 +275,9 @@ Login page, Registration page. Contact form.
  
 action defines where to send the data.
 method defines how to send the data (GET / POST).
+
+<!-- 🔹 11. What is the use of <input> tag? -->
+Used to take input from user (text, password, email, etc.)
 
 <!-- ❓ 5. What is input types? -->
 Input types define the type of data like, text, email

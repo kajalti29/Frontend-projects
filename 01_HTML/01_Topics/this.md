@@ -112,7 +112,7 @@ HTML5 is better because it supports multimedia, semantic tags, improved forms, l
 -----------------------------------------------------------------------------------------------------
 <!-- Q3. What is the difference between Tag and Element? -->
 <!-- HTML -->
-HTML tags are keywords enclosed in angle brackets.
+HTML tags are keywords inside angle brackets used to define elements.
 Example: <p>, <h1>, <img>
 
 <!-- ELement -->
@@ -218,7 +218,7 @@ alt → text shown if image does not load
 ----------------------------------------------------------------------------------------------------
 <!-- ✅ Attributes -->
 Attributes provide additional information about an HTML elements.
-<a href="https://google.com">Google</a>
+Example: <img src="image.jpg"> → src is attribute
 Example: House
 🧱 House → HTML Tag
 📍 House Address → attribute

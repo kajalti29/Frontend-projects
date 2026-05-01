@@ -16,5 +16,4 @@ function generatePassword(){
     let char = "";
 
     if(uppercase.checked) chars += upperChars;
-    if(lowercase)
 }
