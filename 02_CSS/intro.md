@@ -44,7 +44,9 @@ Box-shadow adds shadow around elements.
 
 <!-- 45. Object-fit -->
 Object-fit controls how images fit inside containers.
-======================================================
+
+"GET is used to retrieve data from server, while POST is used to send data to server." 
+=========================================================================
 <!-- 1️⃣ What is CSS? -->
 CSS(Cascading Style Sheets) is used to control layout and design of web pages.
 It allows developers to style HTML elements by changing colors, fonts, spacing, alignment, and making websites responsive for different screen sizes.
