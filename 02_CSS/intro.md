@@ -92,15 +92,16 @@ Internal = Makeup inside home
 External = Professional stylist
 
 <!-- 🔥 2️⃣ What is the difference between Inline, Internal, and External CSS? -->
-"Inline CSS is written inside the HTML element using the style attribute and has highest priority.
+👉 CSS is applied inside the HTML tag using the style attribute
 <p style="color:red;">Inline</p>
 
-Internal CSS is written inside the style tag in the head section and applies to a single page.
+👉 CSS is written inside <style> tag in the <head> section
+
 <style>
 p { color: blue; }
 </style>
 
-External CSS is written in a separate file and linked to HTML, which is best practice for large projects."
+👉 CSS is written in a separate .css file and linked to HTML
 <link rel="stylesheet" href="style.css">
 
 Priority Order:-
@@ -109,7 +110,7 @@ Inline > Internal > External
 <!--Interview Q: Which is best? -->
 ✅ External CSS
 -------------------------------------------------------
-<!-- 3️⃣ What is Selector? -->
+<!-- 3️⃣ What is CSS Selector? -->
 CSS Selector is used to select HTML elements for styling.
 Types:
 Element, Class, ID, Universal, Grouping
@@ -290,6 +291,14 @@ Element normal flow me rehta hai
 Answer:
 Because position not be static.
 
+<!-- 🔹 21. What is visibility property? -->
+visible → show element
+hidden → hide but space remains
+
+<!-- 🔹 22. What is difference between display:none and visibility:hidden? -->
+display: none → removes element completely
+visibility: hidden → hides but keeps space
+
 <!--🔥3️⃣ What is the Difference Between display: none and visibility: hidden? -->
 * display: none → element completely removed from layout
 * visibility: hidden → element hidden but space still reserved
@@ -300,6 +309,17 @@ Because position not be static.
 
 1️⃣8️⃣ Why margin auto not working?
 Needs width defined.
+
+<!-- 🔹 23. What is float? -->
+Used to align elements left or right
+
+<!-- 🔹 24. What is clear? -->
+Used to control float behavior
+
+<!-- 25. What is shorthand property? -->
+Short way to write multiple CSS values
+Example:
+<!-- margin: 10px 20px; -->
 ---------------------------------------------------------
 <!-- 🔥 1️⃣9️⃣ What is Overflow? -->
 Overflow controls extra content.
@@ -313,6 +333,14 @@ overflow: auto;
 
 <!-- What is float? -->
 Used for layout before flexbox
+
+<!-- 🔹 13. What is opacity? -->
+Controls transparency (0 to 1).
+
++
+<!-- 🔹 14. What is hover? -->
+Applies style when mouse is over element
+Example: :hover
 ---------------------------------------------------------------------
 <!--5️⃣ What is Flexbox? --> 
 Flexbox is a one-dimensional layout system in CSS used to design flexible and responsive layouts.It helps align items easily in horizontally or vertically.
